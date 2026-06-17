@@ -8,7 +8,7 @@ Güncel (Chrome Web Store) · Chrome, Edge, Brave · Ücretsiz · Medya ve İçe
 
 ## 📌 Genel Bakış
 
-Volume Master, Windows'un sistem ses kontrolünden farklı olarak sekme bazlı ses yönetimi sunar. YouTube, Spotify veya herhangi bir sekmenin sesini bağımsız ayarlayabilir; sessiz kalan videolarda sesi yükseltebilirsin. Tarayıcının varsayılan %100 sınırını aşarak amplifikasyon da sağlar.
+Volume Master, macOS'un sistem ses kontrolünden farklı olarak sekme bazlı ses yönetimi sunar. YouTube, Spotify veya herhangi bir sekmenin sesini bağımsız ayarlayabilir; sessiz kalan videolarda sesi yükseltebilirsin. Tarayıcının varsayılan %100 sınırını aşarak amplifikasyon da sağlar.
 
 ---
 
@@ -82,7 +82,7 @@ Volume Master, Windows'un sistem ses kontrolünden farklı olarak sekme bazlı s
 
 ## 📝 Notlar
 
-> Volume Master ses amplifikasyonu yapar; bu işitme sağlığını ve hoparlör/kulaklık donanımını olumsuz etkileyebilir. Uzun süre yüksek seste dinleme önerilmez. Windows sistem sesi ile birlikte kullanıldığında toplam ses çok yüksek olabilir - her iki kaydırıcıyı da kontrol et.
+> Volume Master ses amplifikasyonu yapar; bu işitme sağlığını ve hoparlör/kulaklık donanımını olumsuz etkileyebilir. Uzun süre yüksek seste dinleme önerilmez. macOS sistem sesi ile birlikte kullanıldığında toplam ses çok yüksek olabilir - her iki kaydırıcıyı da kontrol et.
 
 ---
 

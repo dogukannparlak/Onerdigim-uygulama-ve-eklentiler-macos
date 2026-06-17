@@ -2,7 +2,7 @@
 
 > **Kısa Açıklama:** Film, dizi ve canlı yayın içeriklerini eklentilerle tek arayüzde toplayan modern medya merkezi.
 
-4.4.x · Windows/macOS/Linux/Android · Ücretsiz · Medya / Streaming
+4.4.x · macOS (Apple Silicon / Intel) · Ücretsiz · Medya / Streaming
 
 ---
 
@@ -19,29 +19,26 @@ Stremio, Netflix, YouTube, Twitch gibi farklı kaynaklardaki içerikleri tek uyg
 - **Kaldığın yerden devam** - Bölüm ve film ilerlemesi otomatik kaydedilir
 - **Keşfet ve Pano** - Popüler içerikler ve yeni bölüm bildirimleri
 - **Altyazı desteği** - OpenSubtitles gibi resmi eklentilerle
-- **Çok platform** - Windows, macOS, Linux, Android, Android TV, web
+- **macOS uyumlu** - Apple Silicon ve Intel Mac; ayrıca Android, Android TV, web
 
 ---
 
 ## 📥 İndirme ve Kurulum
 
-### Yöntem 1: Resmi Site ( Önerilen )
+### Yöntem 1: Homebrew (Önerilen)
 
-1. [stremio.com/downloads](https://www.stremio.com/downloads) adresine git
-2. İşletim sistemine uygun sürümü indir
-3. Kurulum sihirbazını tamamla
-
-### Yöntem 2: WinGet (Terminal)
-
-```powershell
-winget install Stremio.Stremio
+```bash
+brew install --cask stremio
 ```
 
-> `winget upgrade --all` bazen resmi paketi `Zaarrg.StremioCommunity` ile değiştirebilir. Resmi sürüm için `--id Stremio.Stremio` kullan veya siteden indir.
+> Homebrew yüklü değilse: [brew.sh](https://brew.sh) adresindeki komutu Terminal'de çalıştır.
 
-### Yöntem 3: UniGetUI
+### Yöntem 2: Resmi İndirme
 
-> UniGetUI açıkken arama çubuğuna **Stremio** yaz ve kur.
+1. [stremio.com/downloads](https://www.stremio.com/downloads) adresine git
+2. macOS sürümünü indir (.dmg)
+3. Uygulamayı **Applications** klasörüne sürükle
+4. Gatekeeper uyarısı çıkarsa: Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç
 
 ---
 
@@ -115,7 +112,6 @@ Trakt eklentisi kurulduğunda izlediğin bölümler otomatik senkron olur (scrob
 | ----- | ---------- | ----- |
 | Akış açılmıyor | Eklenti sunucusu kapalı | Farklı eklenti dene; Torrentio linkini yeniden oluştur |
 | iOS'ta eklenti yok | Platform kısıtı | Android/PC kullan veya Chromecast ile yayın yap |
-| WinGet yanlış sürüm | Community paket çakışması | `Stremio.Stremio` ile kur; resmi siteden indir |
 | Altyazı gelmiyor | OpenSubtitles kapalı | OpenSubtitles eklentisini kur ve etkinleştir |
 | Senkron çalışmıyor | Hesap / ağ sorunu | Çıkış yap → tekrar giriş; internet bağlantısını kontrol et |
 
@@ -127,6 +123,7 @@ Trakt eklentisi kurulduğunda izlediğin bölümler otomatik senkron olur (scrob
 - 📥 [İndirme Sayfası](https://www.stremio.com/downloads)
 - 💾 [GitHub (Web sürümü)](https://github.com/Stremio/stremio-web)
 - 🔌 [Torrentio Yapılandırma](https://torrentio.strem.fun/configure)
+- 📦 [Homebrew Cask](https://formulae.brew.sh/cask/stremio)
 - 📺 [Trakt.tv](https://trakt.tv/)
 
 ---

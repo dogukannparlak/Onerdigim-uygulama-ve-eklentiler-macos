@@ -8,7 +8,7 @@ Güncel (Chrome Web Store) · Chrome, Edge, Brave · Freemium · Medya ve İçer
 
 ## 📌 Genel Bakış
 
-GoFullPage, görünen alanın ötesinde kalan tüm sayfa içeriğini tek bir görüntüde birleştirir. Windows'taki ekran görüntüsü araçları yalnızca görünür kısmı yakalar; GoFullPage ise sayfayı otomatik kaydırarak tamamını yakalar. Uzun makaleler, forum konuları ve dashboard'lar için pratiktir.
+GoFullPage, görünen alanın ötesinde kalan tüm sayfa içeriğini tek bir görüntüde birleştirir. macOS Ekran Görüntüsü (`Cmd + Shift + 3/4`) yalnızca görünür kısmı yakalar; GoFullPage ise sayfayı otomatik kaydırarak tamamını yakalar. Uzun makaleler, forum konuları ve dashboard'lar için pratiktir.
 
 ---
 

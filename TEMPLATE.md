@@ -2,10 +2,7 @@
 
 > **Kısa Açıklama:** Uygulamanın tek cümlelik özeti - ne işe yarar, kimin için?
 
-Versiyon
-Platform
-Lisans
-Kategori
+Versiyon · macOS (Apple Silicon / Intel) · Lisans · Kategori
 
 ---
 
@@ -34,16 +31,17 @@ Rakiplerine ya da macOS'un yerleşik alternatifine kıyasla ne fark yaratıyor?
 ### Yöntem 1: Homebrew (Önerilen)
 
 ```bash
-brew install --cask uygulama-adı
+brew install --cask uygulama-cask-adi
 ```
 
-> Homebrew yüklü değilse: [brew.sh](https://brew.sh)
+> Homebrew yüklü değilse: [brew.sh](https://brew.sh) adresindeki komutu Terminal'de çalıştır.
 
-### Yöntem 2: Resmi Site
+### Yöntem 2: Resmi İndirme
 
-1. [Resmi indirme sayfasına git](https://örnek.com/download)
-2. **macOS** için `.dmg` dosyasını indir
-3. `.dmg`'yi aç, uygulamayı **Applications** klasörüne sürükle
+1. [Resmi web sitesine git](https://örnek.com)
+2. macOS sürümünü indir (.dmg)
+3. Uygulamayı **Applications** klasörüne sürükle
+4. İlk açılışta Gatekeeper uyarısı çıkarsa: Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç
 
 ---
 
@@ -75,7 +73,7 @@ Adım adım anlat.
 | Kısayol    | İşlev    |
 | ---------- | -------- |
 | `Cmd + ?`  | Açıklama |
-| `Cmd + ,`  | Tercihler |
+| `Cmd + ?`  | Açıklama |
 
 
 ---
@@ -96,7 +94,7 @@ Adım adım anlat.
 - 💾 [GitHub Sayfası](https://github.com/örnek/repo)
 - 📖 [Resmi Dokümantasyon](https://docs.örnek.com)
 - 🗣️ [Topluluk / Forum](https://örnek.com/community)
-- 🍺 [Homebrew Cask](https://formulae.brew.sh/cask/uygulama-adı)
+- 📦 [Homebrew Cask](https://formulae.brew.sh/cask/uygulama-cask-adi)
 
 ---
 
