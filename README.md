@@ -2,19 +2,15 @@
 
 macOS için özenle seçilmiş masaüstü uygulama ve tarayıcı eklentisi rehberleri. Her rehberde **Homebrew (önerilen)** ve **resmi indirme** yöntemleri, önerilen ayarlar ve temel kullanım adımları yer alır.
 
-**4 uygulama** · **21 eklenti** · **6 kategori**
+**19 uygulama** · **21 eklenti** · **6 kategori**
 
 ---
 
 ## Ön koşul: Homebrew
 
-Önerilen kurulum yöntemi Homebrew'dur. Yüklü değilse Terminal'de şu komutu çalıştır:
+Önerilen kurulum yöntemi Homebrew'dur. Kurulum, temel komutlar ve grafik arayüz için:
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-Kurulum sonrası [brew.sh](https://brew.sh) sayfasındaki PATH talimatlarını uygula.
+👉 **[Homebrew.md](Homebrew.md)** — Cask uygulamalarını Terminal olmadan yönetmek için [Applite.md](Applite.md) rehberine de bak.
 
 ---
 
@@ -23,9 +19,24 @@ Kurulum sonrası [brew.sh](https://brew.sh) sayfasındaki PATH talimatlarını u
 
 | Uygulama | Homebrew (Önerilen) | Rehber |
 | -------- | ------------------- | ------ |
+| Homebrew | *(Terminal ile kurulur)* | [Homebrew.md](Homebrew.md) |
+| Applite | `brew install --cask applite` | [Applite.md](Applite.md) |
+| AltTab | `brew install --cask alt-tab` | [AltTab.md](AltTab.md) |
+| DockDoor | `brew install --cask dockdoor` | [DockDoor.md](DockDoor.md) |
+| DynamicNotch | *(GitHub Releases)* | [DynamicNotch.md](DynamicNotch.md) |
+| AppCleaner | `brew install --cask appcleaner` | [AppCleaner.md](AppCleaner.md) |
+| ClearDisk | `brew tap bysiber/cleardisk && brew install --cask cleardisk` | [ClearDisk.md](ClearDisk.md) |
+| Latest | `brew install --cask latest` | [Latest.md](Latest.md) |
+| Mac Sai | `brew tap iliyami/macsai && brew install --cask mac-sai` | [MacSai.md](MacSai.md) |
+| Maccy | `brew install --cask maccy` | [Maccy.md](Maccy.md) |
+| Mos | `brew install --cask mos` | [Mos.md](Mos.md) |
+| Rectangle | `brew install --cask rectangle` | [Rectangle.md](Rectangle.md) |
+| OnyX | `brew install --cask onyx` | [OnyX.md](OnyX.md) |
+| PeaZip | *(GitHub / resmi site)* | [PeaZip.md](PeaZip.md) |
 | Brave Browser | `brew install --cask brave-browser` | [Brave.md](Brave.md) |
 | VLC Media Player | `brew install --cask vlc` | [VLC.md](VLC.md) |
 | Stremio | `brew install --cask stremio` | [Stremio.md](Stremio.md) |
+| Thaw | `brew install --cask thaw` | [Thaw.md](Thaw.md) |
 | qBittorrent | `brew install --cask qbittorrent` | [QBittorrent.md](QBittorrent.md) |
 
 ---
@@ -65,4 +76,4 @@ Bu repository yalnızca bilgilendirme amaçlıdır. Burada önerilen uygulamalar
 
 ---
 
-*Son güncelleme: 2026-06-17*
+*Son güncelleme: 2026-06-18*
