@@ -14,14 +14,14 @@ MacBook trackpad'inde fiziksel orta fare tuşu yoktur; bu yüzden tarayıcıda s
 
 ## ✨ Öne Çıkan Özellikler
 
-- **Orta tık emülasyonu** — Üç parmak tıklama/dokunma ile scroll wheel click davranışı
-- **Trackpad ve Magic Mouse** — MacBook dahili trackpad ve Magic Mouse desteği
-- **Sistem geneli** — Tarayıcı, Terminal ve orta tık destekleyen tüm uygulamalarda çalışır
-- **Hafif** — Küçük boyut, düşük kaynak kullanımı; arka planda sessizce çalışır
-- **Özelleştirilebilir parmak sayısı** — 2–10 parmak arası `defaults` ile ayarlanabilir (varsayılan: 3)
-- **Dokunma hassasiyeti** — Maksimum hareket ve süre eşikleri Terminal üzerinden ince ayar
-- **Açık kaynak ve ücretsiz** — [GPL-3.0](https://github.com/artginzburg/MiddleClick/blob/main/LICENSE); kaynak kod denetlenebilir
-- **Homebrew desteği** — Tek komutla kurulum ve güncelleme
+- **Orta tık emülasyonu** - Üç parmak tıklama/dokunma ile scroll wheel click davranışı
+- **Trackpad ve Magic Mouse** - MacBook dahili trackpad ve Magic Mouse desteği
+- **Sistem geneli** - Tarayıcı, Terminal ve orta tık destekleyen tüm uygulamalarda çalışır
+- **Hafif** - Küçük boyut, düşük kaynak kullanımı; arka planda sessizce çalışır
+- **Özelleştirilebilir parmak sayısı** - 2–10 parmak arası `defaults` ile ayarlanabilir (varsayılan: 3)
+- **Dokunma hassasiyeti** - Maksimum hareket ve süre eşikleri Terminal üzerinden ince ayar
+- **Açık kaynak ve ücretsiz** - [GPL-3.0](https://github.com/artginzburg/MiddleClick/blob/main/LICENSE); kaynak kod denetlenebilir
+- **Homebrew desteği** - Tek komutla kurulum ve güncelleme
 
 ---
 
@@ -50,7 +50,7 @@ brew install --cask middleclick
 
 1. **Erişilebilirlik izni (zorunlu):** İlk açılışta macOS izin ister → Sistem Ayarları → Gizlilik ve Güvenlik → **Erişilebilirlik** → MiddleClick'i etkinleştir
 2. **Girişte başlat:** MiddleClick'i bir kez aç; menü çubuğu simgesinden **Launch at login** (varsa) veya Sistem Ayarları → Genel → Giriş Öğeleri'ne ekle
-3. **Trackpad ayarı:** Sistem Ayarları → Trackpad → **Tıklama yap** etkin olsun — üç parmak tıklama için gerekli
+3. **Trackpad ayarı:** Sistem Ayarları → Trackpad → **Tıklama yap** etkin olsun - üç parmak tıklama için gerekli
 4. **Menü çubuğu simgesini gizle (isteğe bağlı):** `Cmd` basılı tutup simgeyi menü çubuğundan dışarı sürükle (✖️ görünene kadar); geri getirmek için çalışan MiddleClick'i tekrar aç
 
 > 💡 macOS'ta **Üç Parmakla Sürükle** (Three Finger Drag) açıksa MiddleClick ile çakışabilir. Sorun yaşarsan [Three Finger Drag rehberine](https://github.com/artginzburg/MiddleClick/blob/main/docs/three-finger-drag.md) bak veya parmak sayısını 4'e çıkar.

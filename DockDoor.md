@@ -10,7 +10,7 @@ v1.39.3 · macOS 13 Ventura+ (Apple Silicon / Intel) · GPL-3.0 / açık kaynak 
 
 macOS Dock'unda bir uygulamanın üzerine gelince açık pencereleri göremezsin; hangi pencereye geçeceğini anlamak için tıklayıp `Cmd + \`` ile gezmen gerekir. Yerleşik `Cmd + Tab` ise yalnızca uygulama simgelerini gösterir, pencere önizlemesi sunmaz.
 
-**DockDoor**, Windows ve Linux'taki "window peeking" deneyimini Mac'e getirir: Dock simgesinin üzerine gelince o uygulamanın tüm açık pencereleri canlı önizleme olarak çıkar; tıklamadan önce ne açacağını görürsün. Üstelik yerleşik Dock'u **değiştirmez**, üzerine özellik ekler. Tamamen ücretsiz, açık kaynak ve gizlilik odaklıdır — telemetri, analitik veya bulut bağlantısı yoktur.
+**DockDoor**, Windows ve Linux'taki "window peeking" deneyimini Mac'e getirir: Dock simgesinin üzerine gelince o uygulamanın tüm açık pencereleri canlı önizleme olarak çıkar; tıklamadan önce ne açacağını görürsün. Üstelik yerleşik Dock'u **değiştirmez**, üzerine özellik ekler. Tamamen ücretsiz, açık kaynak ve gizlilik odaklıdır - telemetri, analitik veya bulut bağlantısı yoktur.
 
 > **DockDoor Pro** ayrı bir ücretli uygulamadır ([pro.dockdoor.net](https://pro.dockdoor.net/)); Dock'u tamamen değiştirir. Bu rehber yalnızca ücretsiz **DockDoor** sürümünü kapsar.
 
@@ -20,20 +20,20 @@ macOS Dock'unda bir uygulamanın üzerine gelince açık pencereleri göremezsin
 
 *(Yalnızca ücretsiz sürüm özellikleri)*
 
-- **Dock önizlemeleri** — Dock simgesinin üzerine gelince açık pencerelerin canlı önizlemesi; tıklayarak geç veya önizlemeden kapat / küçült / tam ekran yap
-- **Option + Tab pencere geçişi** — Windows'taki Alt+Tab gibi tüm açık pencereleri canlı önizlemeli listeler
-- **Cmd + Tab geliştirmesi** — Yerleşik uygulama geçişine pencere önizlemeleri ekler (isteğe bağlı)
-- **Önizlemeden pencere kontrolü** — Trafik ışığı düğmeleri, orta tıkla kapatma, sürükleyerek taşıma
-- **Dock kilitleme** — Çoklu monitörde Dock'un belirli bir ekranda sabit kalması
-- **Trackpad hareketleri** — Önizleme açıkken iki parmakla Dock'a doğru kaydır = küçült, uzaklaştır = tam ekran
-- **Aero çalkala** — Önizlemede pencereyi sallayarak aynı uygulamanın diğer pencerelerini küçült
-- **Hızlı uygulama kapatma** — `Cmd + sağ tık` ile Dock'tan uygulamayı kapat
-- **Dock simgesine tekrar tıkla = gizle** — Uygulamayı öne getirdikten sonra tekrar tıklayınca tüm pencereleri gizle veya küçült
-- **Müzik widget'ı** — Spotify, Apple Music ve YouTube için Dock üzerinde medya kontrolleri; sabitleyerek ekranda tut
-- **Takvim entegrasyonu** — Takvim uygulamasının Dock simgesine gelince günün etkinliklerini gör
-- **Folder Pop** — Dock klasörlerinin içeriğini önizle
-- **Görünüm özelleştirme** — Önizleme düzeni, boyut, arka plan, saydamlık, kompakt liste modu
-- **Gizlilik** — %100 yerel; izleme, analitik ve otomatik çökme raporu yok
+- **Dock önizlemeleri** - Dock simgesinin üzerine gelince açık pencerelerin canlı önizlemesi; tıklayarak geç veya önizlemeden kapat / küçült / tam ekran yap
+- **Option + Tab pencere geçişi** - Windows'taki Alt+Tab gibi tüm açık pencereleri canlı önizlemeli listeler
+- **Cmd + Tab geliştirmesi** - Yerleşik uygulama geçişine pencere önizlemeleri ekler (isteğe bağlı)
+- **Önizlemeden pencere kontrolü** - Trafik ışığı düğmeleri, orta tıkla kapatma, sürükleyerek taşıma
+- **Dock kilitleme** - Çoklu monitörde Dock'un belirli bir ekranda sabit kalması
+- **Trackpad hareketleri** - Önizleme açıkken iki parmakla Dock'a doğru kaydır = küçült, uzaklaştır = tam ekran
+- **Aero çalkala** - Önizlemede pencereyi sallayarak aynı uygulamanın diğer pencerelerini küçült
+- **Hızlı uygulama kapatma** - `Cmd + sağ tık` ile Dock'tan uygulamayı kapat
+- **Dock simgesine tekrar tıkla = gizle** - Uygulamayı öne getirdikten sonra tekrar tıklayınca tüm pencereleri gizle veya küçült
+- **Müzik widget'ı** - Spotify, Apple Music ve YouTube için Dock üzerinde medya kontrolleri; sabitleyerek ekranda tut
+- **Takvim entegrasyonu** - Takvim uygulamasının Dock simgesine gelince günün etkinliklerini gör
+- **Folder Pop** - Dock klasörlerinin içeriğini önizle
+- **Görünüm özelleştirme** - Önizleme düzeni, boyut, arka plan, saydamlık, kompakt liste modu
+- **Gizlilik** - %100 yerel; izleme, analitik ve otomatik çökme raporu yok
 
 ---
 
@@ -63,7 +63,7 @@ brew install --cask dockdoor
 1. **Erişilebilirlik izni (zorunlu):** İlk açılışta macOS izin ister → Sistem Ayarları → Gizlilik ve Güvenlik → Erişilebilirlik → DockDoor'u etkinleştir
 2. **Ekran kaydı izni (önizleme için gerekli):** Pencere önizlemeleri için **Sistem Ayarları → Gizlilik ve Güvenlik → Ekran ve Sistem Ses Kaydı** → DockDoor'u ekle. Listede görünmüyorsa sol alttaki **+** ile Applications klasöründen DockDoor'u seç → **Quit & Reopen** → **Allow** → uygulamayı yeniden başlat
 3. **Girişte başlat:** **Settings → General** → **Launch at login**
-4. **Menü simgesini gizle (isteğe bağlı):** **Settings → General** → **Show menu bar icon** kapat — uygulamaya Spotlight ile erişebilirsin
+4. **Menü simgesini gizle (isteğe bağlı):** **Settings → General** → **Show menu bar icon** kapat - uygulamaya Spotlight ile erişebilirsin
 
 > 💡 Erişilebilirlik izni olmadan uygulama çalışmaz. Ekran kaydı izni vermezsen Dock önizlemeleri ve geçiş aracındaki canlı küçük resimler görünmez; diğer bazı işlevler sınırlı kalabilir.
 
@@ -75,10 +75,10 @@ brew install --cask dockdoor
 
 1. Dock'taki herhangi bir uygulama simgesinin üzerine gel
 2. O uygulamaya ait tüm açık pencereler canlı önizleme olarak açılır
-3. İstediğin pencereye tıkla — tıklamadan önce ne açacağını görürsün
+3. İstediğin pencereye tıkla - tıklamadan önce ne açacağını görürsün
 4. Önizleme üzerindeki trafik ışığı düğmeleriyle kapat, küçült veya tam ekran yap
 
-**Önerilen ayarlar** — **Settings → Dock Previews:**
+**Önerilen ayarlar** - **Settings → Dock Previews:**
 
 | Ayar | Ne işe yarar |
 | ---- | ------------ |
@@ -105,7 +105,7 @@ Varsayılan ayarlar çoğu kullanıcı için yeterlidir. Görünümü değiştir
 1. **Settings → Cmd+Tab** → üstten özelliği etkinleştir
 2. Uygulama yeniden başlatılması istenir → **OK** de
 3. Artık `Cmd + Tab` ile uygulama simgelerinin yanında canlı pencere önizlemeleri görünür
-4. Örnek: Safari'nin üç penceresi açıkken `Cmd + Tab` ile Safari'ye gel, `Cmd`'den elini kaldırmadan **A** tuşuna bas — pencereler arasında seçim yap
+4. Örnek: Safari'nin üç penceresi açıkken `Cmd + Tab` ile Safari'ye gel, `Cmd`'den elini kaldırmadan **A** tuşuna bas - pencereler arasında seçim yap
 
 İstemezsen aynı sekmeden kapatabilirsin.
 
@@ -141,7 +141,7 @@ Dock veya `Cmd + Tab` önizlemesinde bir pencereyi tutup sallarsan aynı uygulam
 ### Müzik widget'ı
 
 1. Dock'ta Spotify, Apple Music veya YouTube simgesinin üzerine gel
-2. Medya kontrollerini gör — oynat, duraklat, ileri sar
+2. Medya kontrollerini gör - oynat, duraklat, ileri sar
 3. Kontrollerin üzerine **sağ tık** → **Full** veya **Compact** mod ile ekrana sabitle; konumlandır
 4. Kapatmak için yine sağ tık → **Close**
 
@@ -188,7 +188,7 @@ Kısayollar **Settings → Gestures & Keybinds** altından özelleştirilebilir.
 - 🌐 [Resmi Web Sitesi](https://dockdoor.net/)
 - 💾 [GitHub Sayfası](https://github.com/ejbills/DockDoor)
 - 📖 [Resmi Dokümantasyon](https://dockdoor.net/) *(site içi Docs)*
-- 🎬 [YouTube inceleme / tanıtım](https://www.youtube.com/watch?v=CcB9H7Kw6kk&t=92s)
+- 🎬 [Kolay Bilgi - YouTube inceleme / tanıtım](https://www.youtube.com/watch?v=CcB9H7Kw6kk&t=92s)
 - 📦 [Homebrew Cask](https://formulae.brew.sh/cask/dockdoor)
 - 💝 [Geliştirmeyi destekle](https://dockdoor.net/)
 
@@ -196,7 +196,7 @@ Kısayollar **Settings → Gestures & Keybinds** altından özelleştirilebilir.
 
 ## 📝 Notlar
 
-> DockDoor, macOS Dock'unu koruyarak Windows'tan aşina olunan pencere önizleme ve geçiş deneyimini ücretsiz sunar. Yalnızca `Option + Tab` ile pencere geçişi istiyorsan [AltTab](AltTab.md) daha odaklı bir alternatiftir; Dock hover önizlemesi de istiyorsan DockDoor belirgin avantaj sağlar. İkisini birlikte kurduysan `Option + Tab` çakışmasına dikkat et. **DockDoor Pro** ayrı bir uygulamadır ve yerleşik Dock'u tamamen değiştirir — bu rehberdeki ücretsiz sürümle karıştırma.
+> DockDoor, macOS Dock'unu koruyarak Windows'tan aşina olunan pencere önizleme ve geçiş deneyimini ücretsiz sunar. Yalnızca `Option + Tab` ile pencere geçişi istiyorsan [AltTab](AltTab.md) daha odaklı bir alternatiftir; Dock hover önizlemesi de istiyorsan DockDoor belirgin avantaj sağlar. İkisini birlikte kurduysan `Option + Tab` çakışmasına dikkat et. **DockDoor Pro** ayrı bir uygulamadır ve yerleşik Dock'u tamamen değiştirir - bu rehberdeki ücretsiz sürümle karıştırma.
 
 ---
 

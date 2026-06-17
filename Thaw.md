@@ -18,18 +18,18 @@ v1.2.0 · macOS 26+ (Apple Silicon / Intel) · GPL-3.0 / açık kaynak · Menü 
 
 ## ✨ Öne Çıkan Özellikler
 
-- **Bölüm yönetimi** — Gösterilen, gizli ve her zaman gizli menü çubuğu bölümleri
-- **Geçici gösterme** — Boş alana tıklama, çift tıklama, hover veya kaydırma ile gizli simgeleri aç
-- **Thaw simgesi** — Tek tıkla gizli, çift tıkla her zaman gizli, sağ tıkla ayarlar
-- **Otomatik yeniden gizleme** — Akıllı algoritma veya zamanlayıcı ile simgeleri tekrar gizle
-- **Sürükle-bırak düzen** — Simge sırasını görsel arayüzde ve menü çubuğunda `⌘` + sürükle ile ayarla
-- **Thaw Bar** — Notch'lu MacBook'larda gizli simgeleri menü çubuğunun altında ayrı bir barda göster
-- **Simge arama** — Menü çubuğu simgelerinde hızlı arama paneli
-- **Profiller** — Farklı ekranlar veya kullanım senaryoları için menü çubuğu düzeni profilleri
-- **Görünüm özelleştirme** — Menü çubuğu renk tonu (düz/gradyan), gölge, kenarlık, özel şekiller; açık/koyu mod ayrı ayar
-- **Kısayollar** — Bölüm aç/kapa, arama paneli, Thaw Bar, uygulama menülerini gizle/göster
-- **Türkçe arayüz** — Crowdin üzerinden yerelleştirilmiş
-- **Tamamen ücretsiz** — Açık kaynak ([GPL-3.0](https://github.com/stonerl/Thaw/blob/development/LICENSE))
+- **Bölüm yönetimi** - Gösterilen, gizli ve her zaman gizli menü çubuğu bölümleri
+- **Geçici gösterme** - Boş alana tıklama, çift tıklama, hover veya kaydırma ile gizli simgeleri aç
+- **Thaw simgesi** - Tek tıkla gizli, çift tıkla her zaman gizli, sağ tıkla ayarlar
+- **Otomatik yeniden gizleme** - Akıllı algoritma veya zamanlayıcı ile simgeleri tekrar gizle
+- **Sürükle-bırak düzen** - Simge sırasını görsel arayüzde ve menü çubuğunda `⌘` + sürükle ile ayarla
+- **Thaw Bar** - Notch'lu MacBook'larda gizli simgeleri menü çubuğunun altında ayrı bir barda göster
+- **Simge arama** - Menü çubuğu simgelerinde hızlı arama paneli
+- **Profiller** - Farklı ekranlar veya kullanım senaryoları için menü çubuğu düzeni profilleri
+- **Görünüm özelleştirme** - Menü çubuğu renk tonu (düz/gradyan), gölge, kenarlık, özel şekiller; açık/koyu mod ayrı ayar
+- **Kısayollar** - Bölüm aç/kapa, arama paneli, Thaw Bar, uygulama menülerini gizle/göster
+- **Türkçe arayüz** - Crowdin üzerinden yerelleştirilmiş
+- **Tamamen ücretsiz** - Açık kaynak ([GPL-3.0](https://github.com/stonerl/Thaw/blob/development/LICENSE))
 
 ---
 
@@ -48,7 +48,7 @@ brew update
 brew upgrade --cask thaw
 ```
 
-En güncel beta (veya stable — hangisi yeniyse):
+En güncel beta (veya stable - hangisi yeniyse):
 
 ```bash
 brew install --cask thaw@beta
@@ -89,7 +89,7 @@ Thaw simgesine **sağ tıkla** → **Ayarlar** (veya Thaw simgesine tıkla → a
 2. **Erişilebilirlik (zorunlu):** Sistem Ayarları → Gizlilik ve Güvenlik → **Erişilebilirlik** → Thaw'u etkinleştir
 3. İzin verilmezse simge düzenleme ve gizleme çalışmaz; **Gelişmiş → İzinler** sekmesinden durumu kontrol et
 
-### 2. Genel — önerilen yapılandırma
+### 2. Genel - önerilen yapılandırma
 
 | Ayar | Öneri | Açıklama |
 | ---- | ----- | -------- |
@@ -102,27 +102,27 @@ Thaw simgesine **sağ tıkla** → **Ayarlar** (veya Thaw simgesine tıkla → a
 | **Kaydırmada göster** | Açık | Menü çubuğunda scroll/swipe ile gizli simgeleri döngüsel göster |
 | **Otomatik olarak tekrar gizle** | Açık | Geçici gösterimden sonra simgeler kapanır |
 | **Strateji** | **Akıllı** | Kullanım alışkanlığına göre optimal yeniden gizleme |
-| **Menü çubuğu öğesi boşluğu** (BETA) | Varsayılan | Değiştirirsen **Uygula** — tüm menü çubuğu uygulamalarını yeniden başlatır; gerekirse oturumu kapat/aç |
+| **Menü çubuğu öğesi boşluğu** (BETA) | Varsayılan | Değiştirirsen **Uygula** - tüm menü çubuğu uygulamalarını yeniden başlatır; gerekirse oturumu kapat/aç |
 
 > 💡 Thaw simgesi davranışı: **tek tık** → gizli simgeleri göster · **çift tık** → her zaman gizli bölüm · **sağ tık** → ayarlar
 
-### 3. Menü Çubuğu Düzeni — simgeleri böl
+### 3. Menü Çubuğu Düzeni - simgeleri böl
 
 1. **Menü Çubuğu Düzeni** sekmesine git
 2. Simge listesinde öğeleri üç bölüme sürükle:
 
 | Bölüm | Bu repodaki örnek simgeler |
 | ----- | -------------------------- |
-| **Gösterilen** | Thaw, saat, pil, Wi‑Fi — sık bakılan sistem simgeleri |
-| **Gizli** | Maccy, Mos, Rectangle, Latest — sık kullanılan ama sürekli görünmesi gerekmeyen araçlar |
+| **Gösterilen** | Thaw, saat, pil, Wi‑Fi - sık bakılan sistem simgeleri |
+| **Gizli** | Maccy, Mos, Rectangle, Latest - sık kullanılan ama sürekli görünmesi gerekmeyen araçlar |
 | **Her zaman gizli** | Nadiren açılan yardımcı uygulamalar, deneme amaçlı simgeler |
 
-3. Notch'lu MacBook'ta **Thaw Bar**'ı etkinleştir — gizli simgeler menü çubuğunun altında ayrı barda listelenir
+3. Notch'lu MacBook'ta **Thaw Bar**'ı etkinleştir - gizli simgeler menü çubuğunun altında ayrı barda listelenir
 4. İsteğe bağlı: **Profiller** ile iş / oyun / sunum modları için ayrı düzenler kaydet
 
 > Simge sırasını menü çubuğunda da **`⌘` basılı sürükleyerek** değiştirebilirsin. **Gelişmiş**'te **⌘ + sürüklerken tüm bölümleri göster** açıksa bölümler arası taşıma daha kolay olur.
 
-### 4. Gelişmiş — önerilen yapılandırma
+### 4. Gelişmiş - önerilen yapılandırma
 
 | Ayar | Öneri | Açıklama |
 | ---- | ----- | -------- |
@@ -138,7 +138,7 @@ Thaw simgesine **sağ tıkla** → **Ayarlar** (veya Thaw simgesine tıkla → a
 
 ### 5. Menü çubuğu otomatik gizleme (macOS)
 
-Sistem Ayarları → **Kontrol Merkezi** → menü çubuğunu otomatik gizleme açıksa Thaw düzenleme yaparken hata alabilirsin. Düzenleme öncesi geçici olarak **Asla** seç, düzeni kaydet, ardından eski ayara dön — ayrıntılar Bilinen Sorunlar bölümünde.
+Sistem Ayarları → **Kontrol Merkezi** → menü çubuğunu otomatik gizleme açıksa Thaw düzenleme yaparken hata alabilirsin. Düzenleme öncesi geçici olarak **Asla** seç, düzeni kaydet, ardından eski ayara dön - ayrıntılar Bilinen Sorunlar bölümünde.
 
 ---
 
@@ -187,7 +187,7 @@ Thaw simgeleri silmez; genelde **Her zaman gizli** bölümüne düşerler.
 
 ### Profiller
 
-**Menü Çubuğu Düzeni → Profiller** ile farklı düzenler kaydet — örneğin sunum modunda yalnızca sistem simgeleri görünsün, günlük kullanımda Maccy ve Mos gizli bölümde kalsın.
+**Menü Çubuğu Düzeni → Profiller** ile farklı düzenler kaydet - örneğin sunum modunda yalnızca sistem simgeleri görünsün, günlük kullanımda Maccy ve Mos gizli bölümde kalsın.
 
 ### Menü çubuğu görünümü
 

@@ -8,7 +8,7 @@ v0.11 · macOS 10.13+ (Apple Silicon / Intel) · GPL-3.0 / açık kaynak · Sist
 
 ## 📌 Genel Bakış
 
-Mac'te onlarca uygulama kuruluysa hangisinin güncel, hangisinin eski kaldığını takip etmek zordur. Mac App Store uygulamaları App Store'dan, Sparkle kullanan uygulamalar kendi güncelleme penceresinden, Homebrew ile kurulanlar Terminal'den güncellenir — hepsini ayrı ayrı kontrol etmek zaman alır.
+Mac'te onlarca uygulama kuruluysa hangisinin güncel, hangisinin eski kaldığını takip etmek zordur. Mac App Store uygulamaları App Store'dan, Sparkle kullanan uygulamalar kendi güncelleme penceresinden, Homebrew ile kurulanlar Terminal'den güncellenir - hepsini ayrı ayrı kontrol etmek zaman alır.
 
 **Latest**, yüklü uygulamaları tarar; güncelleme var mı gösterir, ne değiştiğini sürüm notlarıyla özetler ve desteklenen uygulamaları doğrudan Latest içinden güncellemen sağlar. Mac App Store, Sparkle (çoğu üçüncü taraf uygulama) ve **Homebrew Cask** kaynaklarını destekler. Tamamen ücretsiz ve açık kaynaklıdır; geliştirici boş zamanında sürdürür.
 
@@ -16,17 +16,17 @@ Mac'te onlarca uygulama kuruluysa hangisinin güncel, hangisinin eski kaldığı
 
 ## ✨ Öne Çıkan Özellikler
 
-- **Çoklu kaynak desteği** — Mac App Store, Sparkle tabanlı uygulamalar ve Homebrew Cask
-- **Tek ekranda genel bakış** — Hangi uygulamaların güncellenebileceğini listeler; kaynak simgesi (App Store / Web) gösterir
-- **Sürüm notları** — Güncelleme veya kurulu sürüm için değişiklikleri tek, düzenli arayüzde oku
-- **Uygulama içinden güncelleme** — Desteklenen uygulamaları Latest'ten güncelle; **Update All** ile toplu güncelleme
-- **Kurulu güncellemeler geçmişi** — Dün kurduğun güncellemede ne değiştiğini geriye dönük gör
-- **Uygulama yok sayma** — Belirli uygulamaları güncelleme listesinden hariç tut
-- **Arama** — Uygulama adına göre hızlı filtrele
-- **Sıralama** — Varsayılan: son güncellenenler; menüden ada göre sıralama
-- **Desteklenmeyen uygulamalar** — Listede soluk gösterilir; isteğe bağlı gizlenebilir
-- **Touch Bar desteği** — Uyumlu MacBook'larda listede gezin, sürüm notlarını oku, toplu güncelle
-- **Türkçe dahil çoklu dil** — Weblate üzerinden topluluk çevirileri
+- **Çoklu kaynak desteği** - Mac App Store, Sparkle tabanlı uygulamalar ve Homebrew Cask
+- **Tek ekranda genel bakış** - Hangi uygulamaların güncellenebileceğini listeler; kaynak simgesi (App Store / Web) gösterir
+- **Sürüm notları** - Güncelleme veya kurulu sürüm için değişiklikleri tek, düzenli arayüzde oku
+- **Uygulama içinden güncelleme** - Desteklenen uygulamaları Latest'ten güncelle; **Update All** ile toplu güncelleme
+- **Kurulu güncellemeler geçmişi** - Dün kurduğun güncellemede ne değiştiğini geriye dönük gör
+- **Uygulama yok sayma** - Belirli uygulamaları güncelleme listesinden hariç tut
+- **Arama** - Uygulama adına göre hızlı filtrele
+- **Sıralama** - Varsayılan: son güncellenenler; menüden ada göre sıralama
+- **Desteklenmeyen uygulamalar** - Listede soluk gösterilir; isteğe bağlı gizlenebilir
+- **Touch Bar desteği** - Uyumlu MacBook'larda listede gezin, sürüm notlarını oku, toplu güncelle
+- **Türkçe dahil çoklu dil** - Weblate üzerinden topluluk çevirileri
 
 ---
 
@@ -51,9 +51,9 @@ brew install --cask latest
 
 ## ⚙️ İlk Kurulum ve Önerilen Ayarlar
 
-1. **İlk tarama:** Latest'i aç — yüklü uygulamalar otomatik taranır; güncelleme varsa listede görünür
+1. **İlk tarama:** Latest'i aç - yüklü uygulamalar otomatik taranır; güncelleme varsa listede görünür
 2. **Güncellemeleri periyodik kontrol:** Menü → **Latest → Check for Updates** veya uygulamayı ara sıra aç
-3. **Yok sayılacak uygulamalar:** Güncellemek istemediğin uygulamaya sağ tık → **Ignore** — beta sürüm kullanan veya manuel güncellediğin uygulamalar için faydalı
+3. **Yok sayılacak uygulamalar:** Güncellemek istemediğin uygulamaya sağ tık → **Ignore** - beta sürüm kullanan veya manuel güncellediğin uygulamalar için faydalı
 4. **Desteklenmeyen uygulamalar:** Ayarlardan desteklenmeyen uygulamaları listede göster/gizle seçeneğini ihtiyacına göre ayarla
 5. **Dil:** Sistem dilin Türkçe ise arayüz Türkçe görünür (0.10.1+)
 
@@ -66,13 +66,13 @@ brew install --cask latest
 ### Güncelleme kontrolü
 
 1. Latest'i aç
-2. Liste otomatik dolar — güncelleme olan uygulamalar üstte veya vurgulu görünür
+2. Liste otomatik dolar - güncelleme olan uygulamalar üstte veya vurgulu görünür
 3. Bir uygulamaya tıkla → sağ tarafta sürüm notlarını oku
 4. **Update** ile tek uygulamayı güncelle veya araç çubuğundan **Update All** ile desteklenen tümünü güncelle
 
 ### Kurulu güncellemeleri inceleme
 
-Güncel uygulamalar için de sürüm notlarına bakabilirsin — "dün kurduğum güncellemede ne vardı?" sorusuna yanıt verir. Listeden güncel bir uygulama seç; değişiklik özeti uniform tasarımla gösterilir.
+Güncel uygulamalar için de sürüm notlarına bakabilirsin - "dün kurduğum güncellemede ne vardı?" sorusuna yanıt verir. Listeden güncel bir uygulama seç; değişiklik özeti uniform tasarımla gösterilir.
 
 ### Uygulama yok sayma
 
@@ -82,7 +82,7 @@ Güncel uygulamalar için de sürüm notlarına bakabilirsin — "dün kurduğum
 
 ### Arama ve sıralama
 
-- Üstteki arama kutusuna uygulama adını yaz — listeyi filtrele
+- Üstteki arama kutusuna uygulama adını yaz - listeyi filtrele
 - **View → Sort By → Name** ile ada göre sırala (varsayılan: son güncellenenler)
 
 ### Kaynak türleri

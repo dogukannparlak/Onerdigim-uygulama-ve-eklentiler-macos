@@ -8,21 +8,21 @@ v4.3.3 · macOS 10.15+ (Apple Silicon / Intel) · MIT / açık kaynak · Ekran y
 
 ## 📌 Genel Bakış
 
-Harici monitör bağladığında macOS genelde parlaklık tuşlarını (`F1` / `F2`) yalnızca dahili ekrana yönlendirir; harici ekranın fiziksel düğmelerine ulaşmak zorunda kalırsın. MonitorControl bu boşluğu doldurur: DDC/CI protokolüyle donanım parlaklığı, Apple protokolüyle yerleşik ekranlar, gamma/shade ile yazılımsal karartma sunar ve yerel macOS OSD'sini gösterir. [BetterDisplay](BetterDisplay.md) ile aynı geliştirici ekosisteminden gelir; MonitorControl daha hafif ve odaklıdır — yalnızca parlaklık, ses ve kontrast kontrolü istersen ideal seçimdir.
+Harici monitör bağladığında macOS genelde parlaklık tuşlarını (`F1` / `F2`) yalnızca dahili ekrana yönlendirir; harici ekranın fiziksel düğmelerine ulaşmak zorunda kalırsın. MonitorControl bu boşluğu doldurur: DDC/CI protokolüyle donanım parlaklığı, Apple protokolüyle yerleşik ekranlar, gamma/shade ile yazılımsal karartma sunar ve yerel macOS OSD'sini gösterir. [BetterDisplay](BetterDisplay.md) ile aynı geliştirici ekosisteminden gelir; MonitorControl daha hafif ve odaklıdır - yalnızca parlaklık, ses ve kontrast kontrolü istersen ideal seçimdir.
 
 ---
 
 ## ✨ Öne Çıkan Özellikler
 
-- **Parlaklık, ses ve kontrast** — Harici monitörleri klavye veya menü kaydırıcılarıyla kontrol et
-- **Yerel macOS OSD** — Apple ekranlarındaki gibi parlaklık/ses göstergesi (Tahoe'de yüzde değeri sınırlı)
-- **Çoklu protokol** — DDC (harici), Apple native (dahili/Apple Display), gamma tablosu, shade (DisplayLink/AirPlay/Sidecar)
-- **Donanım + yazılım karartma** — Minimum parlaklığın altına inme; tam siyaha kadar karartma
-- **Ekran senkronizasyonu** — Tüm ekranları tek kaydırıcı veya kısayolla eşitle; dahili ekran parlaklığını harici ekrana yansıt
-- **Apple klavye tuşları** — `F1`/`F2` ve medya tuşlarını harici monitöre yönlendir (Erişilebilirlik izni gerekir)
-- **Özel klavye kısayolları** — Settings → Keyboard altında tamamen özelleştirilebilir
-- **Gelişmiş ayarlar** — Donanımına göre ince ayar için **Show advanced settings** seçeneği
-- **Tamamen ücretsiz** — Açık kaynak ([MIT](https://github.com/MonitorControl/MonitorControl/blob/main/License.txt)); abonelik veya Pro sürüm yok
+- **Parlaklık, ses ve kontrast** - Harici monitörleri klavye veya menü kaydırıcılarıyla kontrol et
+- **Yerel macOS OSD** - Apple ekranlarındaki gibi parlaklık/ses göstergesi (Tahoe'de yüzde değeri sınırlı)
+- **Çoklu protokol** - DDC (harici), Apple native (dahili/Apple Display), gamma tablosu, shade (DisplayLink/AirPlay/Sidecar)
+- **Donanım + yazılım karartma** - Minimum parlaklığın altına inme; tam siyaha kadar karartma
+- **Ekran senkronizasyonu** - Tüm ekranları tek kaydırıcı veya kısayolla eşitle; dahili ekran parlaklığını harici ekrana yansıt
+- **Apple klavye tuşları** - `F1`/`F2` ve medya tuşlarını harici monitöre yönlendir (Erişilebilirlik izni gerekir)
+- **Özel klavye kısayolları** - Settings → Keyboard altında tamamen özelleştirilebilir
+- **Gelişmiş ayarlar** - Donanımına göre ince ayar için **Show advanced settings** seçeneği
+- **Tamamen ücretsiz** - Açık kaynak ([MIT](https://github.com/MonitorControl/MonitorControl/blob/main/License.txt)); abonelik veya Pro sürüm yok
 
 ---
 
@@ -61,11 +61,11 @@ brew install --cask monitorcontrol
 1. **Uygulamayı aç:** Menü çubuğunda parlaklık simgesi görünür
 2. **Erişilebilirlik izni (klavye tuşları için):** Yerleşik `F1`/`F2` ve medya tuşlarını kullanacaksan → Sistem Ayarları → Gizlilik ve Güvenlik → **Erişilebilirlik** → MonitorControl'i etkinleştir. Yalnızca menü kaydırıcıları yeterliyse atlayabilirsin
 3. **Girişte başlat:** Settings → **General** → **Launch at login**
-4. **Gelişmiş ayarlar:** Settings → **Show advanced settings** — DDC, gamma, senkronizasyon ve donanımına özel seçenekler
-5. **Klavye:** Settings → **Keyboard** — Apple medya tuşlarını varsayılan kullanır; istersen özel kısayol tanımla
+4. **Gelişmiş ayarlar:** Settings → **Show advanced settings** - DDC, gamma, senkronizasyon ve donanımına özel seçenekler
+5. **Klavye:** Settings → **Keyboard** - Apple medya tuşlarını varsayılan kullanır; istersen özel kısayol tanımla
 6. **BetterDisplay çakışması:** İki uygulama da DDC kullanıyorsa birinde DDC'yi kapat veya yalnızca birini aktif tut ([BetterDisplay.md](BetterDisplay.md))
 
-> 💡 Sequoia/Tahoe için **v4.3.3+** şart. Tahoe'da Control Center OSD görünür ancak yüzde değeri güncellenmeyebilir — bilinen sınırlama.
+> 💡 Sequoia/Tahoe için **v4.3.3+** şart. Tahoe'da Control Center OSD görünür ancak yüzde değeri güncellenmeyebilir - bilinen sınırlama.
 
 ---
 
@@ -93,7 +93,7 @@ brew install --cask monitorcontrol
 
 ### Donanım vs yazılım karartma
 
-- **DDC destekli monitör** (USB-C, DisplayPort vb.): Donanım arka ışığı doğrudan kontrol edilir — tercih edilen yöntem
+- **DDC destekli monitör** (USB-C, DisplayPort vb.): Donanım arka ışığı doğrudan kontrol edilir - tercih edilen yöntem
 - **DDC desteklemeyen TV / DisplayLink / Sidecar:** Yazılımsal shade (overlay) veya gamma ile karartma
 - **Kombine mod:** Donanım minimuma indikten sonra yazılımsal karartmayla tam siyaha inme
 
@@ -128,7 +128,7 @@ brew install --cask monitorcontrol
 
 ## 📝 Notlar
 
-> MonitorControl, harici monitör parlaklığı ve ses kontrolü için en pratik ücretsiz çözümlerden biridir. XDR/HDR upscaling, esnek HiDPI, sanal ekran veya EDID override gibi gelişmiş ihtiyaçların varsa aynı ekosistemdeki [BetterDisplay](BetterDisplay.md) daha kapsamlıdır — ikisini birlikte kurabilirsin ama DDC çakışmasına dikkat et. Geliştirici [@waydabber](https://github.com/waydabber) her iki projeyi de sürdürüyor.
+> MonitorControl, harici monitör parlaklığı ve ses kontrolü için en pratik ücretsiz çözümlerden biridir. XDR/HDR upscaling, esnek HiDPI, sanal ekran veya EDID override gibi gelişmiş ihtiyaçların varsa aynı ekosistemdeki [BetterDisplay](BetterDisplay.md) daha kapsamlıdır - ikisini birlikte kurabilirsin ama DDC çakışmasına dikkat et. Geliştirici [@waydabber](https://github.com/waydabber) her iki projeyi de sürdürüyor.
 
 ---
 

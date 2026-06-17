@@ -14,14 +14,14 @@ macOS'ta bir uygulamayı Çöp Kutusu'na sürüklemek çoğu zaman yalnızca ana
 
 ## ✨ Öne Çıkan Özellikler
 
-- **Tam kaldırma** — Uygulama ile birlikte tercih, önbellek, çerez ve kütüphane dosyalarını da siler
-- **Sürükle-bırak arayüzü** — Uygulamayı AppCleaner penceresine bırak; ilişkili dosyalar otomatik listelenir
-- **Kurulu uygulama listesi** — Yüklü uygulamaları, eklentileri ve widget'ları listeden seçerek kaldır
-- **SmartDelete** — Uygulamayı doğrudan Çöp Kutusu'na attığında ilişkili dosyaları silmek için sorar
-- **Koruma ayarları** — Sistem uygulamalarını, çalışan uygulamaları veya seçtiğin uygulamaları yanlışlıkla silmeye karşı koru
-- **Dosya arama (Lookup)** — Belirli bir dosya veya klasörün hangi uygulamaya ait olduğunu bul
-- **Ücretsiz** — Reklamsız; her yeni macOS sürümü için güncellenir
-- **Apple Silicon uyumlu** — Intel ve Apple Silicon Mac'lerde çalışır
+- **Tam kaldırma** - Uygulama ile birlikte tercih, önbellek, çerez ve kütüphane dosyalarını da siler
+- **Sürükle-bırak arayüzü** - Uygulamayı AppCleaner penceresine bırak; ilişkili dosyalar otomatik listelenir
+- **Kurulu uygulama listesi** - Yüklü uygulamaları, eklentileri ve widget'ları listeden seçerek kaldır
+- **SmartDelete** - Uygulamayı doğrudan Çöp Kutusu'na attığında ilişkili dosyaları silmek için sorar
+- **Koruma ayarları** - Sistem uygulamalarını, çalışan uygulamaları veya seçtiğin uygulamaları yanlışlıkla silmeye karşı koru
+- **Dosya arama (Lookup)** - Belirli bir dosya veya klasörün hangi uygulamaya ait olduğunu bul
+- **Ücretsiz** - Reklamsız; her yeni macOS sürümü için güncellenir
+- **Apple Silicon uyumlu** - Intel ve Apple Silicon Mac'lerde çalışır
 
 ---
 
@@ -38,7 +38,7 @@ brew install --cask appcleaner
 ### Yöntem 2: Resmi İndirme
 
 1. [freemacsoft.net/appcleaner](https://freemacsoft.net/appcleaner/) adresine git
-2. macOS sürümüne uygun sürümü indir (**v3.6.8** — Mojave'den Tahoe'ya kadar)
+2. macOS sürümüne uygun sürümü indir (**v3.6.8** - Mojave'den Tahoe'ya kadar)
 3. `.dmg` dosyasını aç ve AppCleaner'ı **Applications** klasörüne sürükle
 4. Gatekeeper uyarısı çıkarsa: Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç
 
@@ -46,10 +46,10 @@ brew install --cask appcleaner
 
 ## ⚙️ İlk Kurulum ve Önerilen Ayarlar
 
-1. **SmartDelete'i aç:** AppCleaner menü çubuğu → **AppCleaner → Preferences → SmartDelete → ON** — Çöp Kutusu'na attığın uygulamaların artık dosyalarını da temizler
-2. **Sistem uygulamalarını koru:** **Preferences → General → Protect default OS X apps** — macOS'un yerleşik uygulamalarını yanlışlıkla silmeyi engeller
-3. **Çalışan uygulamaları koru:** **Preferences → General → Protect running apps** — açık uygulamaların kaldırılmasını önler
-4. **Kritik uygulamaları listeye ekle:** **Add additional apps to keep safe below** — AppCleaner, AltTab gibi sık kullandığın araçları koruma altına al
+1. **SmartDelete'i aç:** AppCleaner menü çubuğu → **AppCleaner → Preferences → SmartDelete → ON** - Çöp Kutusu'na attığın uygulamaların artık dosyalarını da temizler
+2. **Sistem uygulamalarını koru:** **Preferences → General → Protect default OS X apps** - macOS'un yerleşik uygulamalarını yanlışlıkla silmeyi engeller
+3. **Çalışan uygulamaları koru:** **Preferences → General → Protect running apps** - açık uygulamaların kaldırılmasını önler
+4. **Kritik uygulamaları listeye ekle:** **Add additional apps to keep safe below** - AppCleaner, AltTab gibi sık kullandığın araçları koruma altına al
 5. **Güncellemeleri kontrol et:** **Preferences → Updates → Check updates automatically**
 
 > 💡 SmartDelete açıkken AppCleaner arka planda çalışabilir; menü çubuğunda simgesi görünür. Günlük kullanımda uygulamayı açmana gerek kalmadan temiz kaldırma yaparsın.
@@ -62,7 +62,7 @@ brew install --cask appcleaner
 
 1. AppCleaner'ı aç
 2. Kaldırmak istediğin `.app` dosyasını (Applications veya başka bir konumdan) AppCleaner penceresine **sürükle-bırak**
-3. Listelenen ilişkili dosyaları incele — istemediğin bir satırın işaretini kaldırabilirsin
+3. Listelenen ilişkili dosyaları incele - istemediğin bir satırın işaretini kaldırabilirsin
 4. **Remove** (Kaldır) butonuna tıkla
 5. Yönetici parolasını gir
 
@@ -111,7 +111,7 @@ AppCleaner minimal bir aracıdır; temel işlemler fare ve sürükle-bırak ile 
 
 ## 📝 Notlar
 
-> AppCleaner kapalı kaynaklı, ücretsiz bir macOS aracıdır; resmi kaynak [FreeMacSoft](https://freemacsoft.net/appcleaner/) sitesidir. Arayüz yalnızca İngilizcedir ancak kullanımı son derece basittir. Toplu kaldırma desteklemez — uygulamaları tek tek silmen gerekir. PearCleaner gibi alternatifler yetim dosya taraması sunar; AppCleaner'ın güçlü yanı **SmartDelete** ve yıllardır güncel kalmasıdır. Kaldırmadan önce listedeki dosyaları gözden geçirmeni öneririm; nadiren de olsa başka bir uygulamanın paylaştığı dosya görünebilir.
+> AppCleaner kapalı kaynaklı, ücretsiz bir macOS aracıdır; resmi kaynak [FreeMacSoft](https://freemacsoft.net/appcleaner/) sitesidir. Arayüz yalnızca İngilizcedir ancak kullanımı son derece basittir. Toplu kaldırma desteklemez - uygulamaları tek tek silmen gerekir. PearCleaner gibi alternatifler yetim dosya taraması sunar; AppCleaner'ın güçlü yanı **SmartDelete** ve yıllardır güncel kalmasıdır. Kaldırmadan önce listedeki dosyaları gözden geçirmeni öneririm; nadiren de olsa başka bir uygulamanın paylaştığı dosya görünebilir.
 
 ---
 

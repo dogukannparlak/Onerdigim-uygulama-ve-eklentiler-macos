@@ -8,7 +8,7 @@ v11.1.0 · macOS 11+ (Apple Silicon / Intel) · LGPL-3.0 / açık kaynak · Arş
 
 ## 📌 Genel Bakış
 
-macOS'un yerleşik Archive Utility'si yalnızca temel `.zip` işlemlerini yapar; `.rar`, `.7z`, bölünmüş arşivler (`.001`, `.r01`) veya şifreli arşivler için yetmez. **PeaZip**, 7-Zip/p7zip, Brotli, Zstandard, FreeArc ve PAQ gibi açık kaynak motorları üzerine kurulu tam özellikli bir arşiv yöneticisidir — hem sıkıştırma/arşivleme hem dosya yönetimi (yer imi, yinelenen dosya arama, hash doğrulama) sunar.
+macOS'un yerleşik Archive Utility'si yalnızca temel `.zip` işlemlerini yapar; `.rar`, `.7z`, bölünmüş arşivler (`.001`, `.r01`) veya şifreli arşivler için yetmez. **PeaZip**, 7-Zip/p7zip, Brotli, Zstandard, FreeArc ve PAQ gibi açık kaynak motorları üzerine kurulu tam özellikli bir arşiv yöneticisidir - hem sıkıştırma/arşivleme hem dosya yönetimi (yer imi, yinelenen dosya arama, hash doğrulama) sunar.
 
 Yalnızca hızlıca `.rar` veya `.zip` açmak istiyorsan [The Unarchiver](https://theunarchiver.com/) yeterli olabilir; GUI'den arşiv oluşturma, dönüştürme, güçlü şifreleme, iki faktörlü kimlik doğrulama (parola + keyfile) ve CLI betiği dışa aktarma istiyorsan PeaZip daha kapsamlıdır.
 
@@ -18,16 +18,16 @@ Yalnızca hızlıca `.rar` veya `.zip` açmak istiyorsan [The Unarchiver](https:
 
 ## ✨ Öne Çıkan Özellikler
 
-- **200+ format desteği** — 7Z, RAR, TAR, ZIP, ZIPX, ISO, ACE, CAB, DMG, GZ, BZ2, XZ, ZST, WIM ve daha fazlası
-- **Arşiv oluşturma** — 7Z, ARC, Brotli, BZ2, GZ, PEA, TAR, WIM, Zstandard, ZIP, ZIPX
-- **RAR açma** — Kutudan çıkar; isteğe bağlı Resmi UnRAR eklentisi (PLUGINS sayfası)
-- **Güçlü şifreleme** — AES, Twofish, Serpent; isteğe bağlı iki faktörlü kimlik doğrulama (parola + keyfile)
-- **GUI → CLI dışa aktarma** — Arşivleme/çıkarma ekranındaki **Console** sekmesinden görevi komut satırı betiği olarak kaydet
-- **Dosya yöneticisi** — Yer imi, arşiv içi arama, yinelenen dosya tespiti, metin/hex/görüntü görüntüleyici
-- **Hash ve checksum** — Geniş hash fonksiyonlarıyla dosya doğrulama
-- **Taşınabilir kullanım** — Kurulum zorunlu değil; ağ yolundan veya harici sürücüden çalıştırılabilir
-- **macOS bağlam menüsü** — DMG içindeki Automator `.workflow` betikleriyle sağ tık menüsüne ekleme
-- **Çapraz platform** — Linux, macOS ve Windows'ta aynı arayüz; açık kaynak ([LGPL-3.0](https://github.com/peazip/PeaZip/blob/sources/LICENSE))
+- **200+ format desteği** - 7Z, RAR, TAR, ZIP, ZIPX, ISO, ACE, CAB, DMG, GZ, BZ2, XZ, ZST, WIM ve daha fazlası
+- **Arşiv oluşturma** - 7Z, ARC, Brotli, BZ2, GZ, PEA, TAR, WIM, Zstandard, ZIP, ZIPX
+- **RAR açma** - Kutudan çıkar; isteğe bağlı Resmi UnRAR eklentisi (PLUGINS sayfası)
+- **Güçlü şifreleme** - AES, Twofish, Serpent; isteğe bağlı iki faktörlü kimlik doğrulama (parola + keyfile)
+- **GUI → CLI dışa aktarma** - Arşivleme/çıkarma ekranındaki **Console** sekmesinden görevi komut satırı betiği olarak kaydet
+- **Dosya yöneticisi** - Yer imi, arşiv içi arama, yinelenen dosya tespiti, metin/hex/görüntü görüntüleyici
+- **Hash ve checksum** - Geniş hash fonksiyonlarıyla dosya doğrulama
+- **Taşınabilir kullanım** - Kurulum zorunlu değil; ağ yolundan veya harici sürücüden çalıştırılabilir
+- **macOS bağlam menüsü** - DMG içindeki Automator `.workflow` betikleriyle sağ tık menüsüne ekleme
+- **Çapraz platform** - Linux, macOS ve Windows'ta aynı arayüz; açık kaynak ([LGPL-3.0](https://github.com/peazip/PeaZip/blob/sources/LICENSE))
 
 ---
 
@@ -63,7 +63,7 @@ Eski macOS sürümlerinde sıkıştırılmış DMG açılmıyorsa Intel paketi *
 
 ### Yöntem 2: Taşınabilir (Portable) kullanım
 
-`peazip.app` dosyasını Applications dışında istediğin konuma taşıyabilirsin (harici disk, ağ yolu vb.). Yapılandırma `~/.config` altına kaydedilir. DMG'den doğrudan çalıştırıp oturum kapanınca silinmesini de tercih edebilirsin — kalıcı kullanım için Applications'a kopyalamak daha pratiktir.
+`peazip.app` dosyasını Applications dışında istediğin konuma taşıyabilirsin (harici disk, ağ yolu vb.). Yapılandırma `~/.config` altına kaydedilir. DMG'den doğrudan çalıştırıp oturum kapanınca silinmesini de tercih edebilirsin - kalıcı kullanım için Applications'a kopyalamak daha pratiktir.
 
 ### Yöntem 3: Kaynaktan derleme
 
@@ -75,8 +75,8 @@ PeaZip **Lazarus/FreePascal** ile derlenir. Ayrıntılı talimatlar: [peazip-sou
 
 1. **Quarantine kaldır:** Kurulumdan hemen sonra `xattr -dr com.apple.quarantine /Applications/peazip.app` komutunu çalıştır
 2. **Hash doğrula:** [Changelog / SHA256](https://peazip.github.io/changelog.html) sayfasındaki değerlerle indirdiğin paketi karşılaştır
-3. **Bağlam menüsü (isteğe bağlı):** DMG kökündeki **macOS service menus** klasöründeki `.workflow` dosyalarına çift tıkla — *Add to archive*, *Extract*, *Open with PeaZip* sağ tık menüsüne eklenir
-4. **7z alternatif algoritmalar (isteğe bağlı):** Brotli, LZ4, Zstd gibi gelişmiş `.7z` sıkıştırma istiyorsan **Options → Settings → Advanced → 7z / p7zip alias** değerini `7zalt` yap — *vanilla* 7-Zip ile uyumluluk bozulabilir; paylaşım arşivlerinde LZMA2/BZip2 tercih et
+3. **Bağlam menüsü (isteğe bağlı):** DMG kökündeki **macOS service menus** klasöründeki `.workflow` dosyalarına çift tıkla - *Add to archive*, *Extract*, *Open with PeaZip* sağ tık menüsüne eklenir
+4. **7z alternatif algoritmalar (isteğe bağlı):** Brotli, LZ4, Zstd gibi gelişmiş `.7z` sıkıştırma istiyorsan **Options → Settings → Advanced → 7z / p7zip alias** değerini `7zalt` yap - *vanilla* 7-Zip ile uyumluluk bozulabilir; paylaşım arşivlerinde LZMA2/BZip2 tercih et
 5. **Tema:** Açık/koyu mod ve alternatif temalar **Options → Settings** veya [Themes](https://peazip.github.io/peazip-themes.html) sayfasından
 
 > 💡 Bağlam menüsü betikleri `~/Library/Services/` altına kurulur. Kaldırmak için ilgili `.workflow` dosyasını sil veya Sistem Ayarları → Klavye → Kısayollar → Hizmetler'den devre dışı bırak.
@@ -87,7 +87,7 @@ PeaZip **Lazarus/FreePascal** ile derlenir. Ayrıntılı talimatlar: [peazip-sou
 
 ### Arşiv açma / çıkarma
 
-1. `.rar`, `.7z`, `.zip` veya desteklenen herhangi bir arşive **çift tıkla** — PeaZip varsayılan uygulama olarak atanmışsa doğrudan açılır
+1. `.rar`, `.7z`, `.zip` veya desteklenen herhangi bir arşive **çift tıkla** - PeaZip varsayılan uygulama olarak atanmışsa doğrudan açılır
 2. Veya PeaZip'i aç → arşivi pencereye **sürükle-bırak** → **Extract** (Çıkar)
 3. Hedef klasörü seç → onayla
 
@@ -103,14 +103,14 @@ PeaZip **Lazarus/FreePascal** ile derlenir. Ayrıntılı talimatlar: [peazip-sou
 ### Şifreli arşiv
 
 1. Arşiv oluşturma ekranında **Encryption** bölümünü aç
-2. Parola gir; isteğe bağlı **keyfile** (anahtar dosyası) ekle — iki faktörlü kimlik doğrulama
+2. Parola gir; isteğe bağlı **keyfile** (anahtar dosyası) ekle - iki faktörlü kimlik doğrulama
 3. Algoritma olarak AES, Twofish veya Serpent seçilebilir
 
 ### GUI görevini CLI betiğine dönüştürme
 
 1. Arşivleme veya çıkarma ekranında görevi GUI'de tanımla
 2. **Console** sekmesine geç
-3. Oluşan komut satırını kopyala veya betik olarak kaydet — yedekleme otomasyonu veya Terminal'den tekrar kullanım için ideal
+3. Oluşan komut satırını kopyala veya betik olarak kaydet - yedekleme otomasyonu veya Terminal'den tekrar kullanım için ideal
 
 ### Dosya bölme / birleştirme
 

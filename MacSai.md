@@ -1,6 +1,6 @@
 # 🛠️ Mac Sai
 
-> **Kısa Açıklama:** Mac'te gereksiz dosyaları temizleyen, kötü amaçlı yazılım tarayan, uygulamaları tam kaldıran ve disk kullanımını görselleştiren ücretsiz, açık kaynaklı sistem bakım aracı — CleanMyMac'e aboneliksiz alternatif.
+> **Kısa Açıklama:** Mac'te gereksiz dosyaları temizleyen, kötü amaçlı yazılım tarayan, uygulamaları tam kaldıran ve disk kullanımını görselleştiren ücretsiz, açık kaynaklı sistem bakım aracı - CleanMyMac'e aboneliksiz alternatif.
 
 v1.11.7 · macOS 14 Sonoma+ (Apple Silicon / Intel) · BSD-3-Clause / açık kaynak · Sistem / Bakım
 
@@ -20,38 +20,38 @@ Eski adı **Mac Clean** idi (ticari marka nedeniyle Mac Sai olarak yeniden adlan
 
 ### Temizlik
 
-- **Smart Scan** — Tek tıkla 13 modülü tarar; temizlik, koruma ve performans analizini birleştirir
-- **System Junk** — 16 kategori: önbellek, log, dil dosyaları, bozuk tercihler, iOS yedekleri, Xcode artıkları, **Universal Binary inceltme** (arm64+x86_64 birleşik ikili dosyaları yalnızca native mimarine indirir) ve daha fazlası
-- **Mail Attachments** — Apple Mail, Outlook ve Spark ek önbelleklerini bulur
-- **Trash Bins** — Harici sürücüler dahil tüm çöp kutularını boşaltır
+- **Smart Scan** - Tek tıkla 13 modülü tarar; temizlik, koruma ve performans analizini birleştirir
+- **System Junk** - 16 kategori: önbellek, log, dil dosyaları, bozuk tercihler, iOS yedekleri, Xcode artıkları, **Universal Binary inceltme** (arm64+x86_64 birleşik ikili dosyaları yalnızca native mimarine indirir) ve daha fazlası
+- **Mail Attachments** - Apple Mail, Outlook ve Spark ek önbelleklerini bulur
+- **Trash Bins** - Harici sürücüler dahil tüm çöp kutularını boşaltır
 
 ### Koruma
 
-- **Malware Removal** — İmza tabanlı tarama; Quick / Balanced / Deep derinlikleri; launch agent, tarayıcı eklentisi ve bilinen kalıplar
-- **Privacy** — Safari, Chrome ve Firefox geçmişi, çerez ve önbellek temizliği; sistem izleri için zaman filtresi
+- **Malware Removal** - İmza tabanlı tarama; Quick / Balanced / Deep derinlikleri; launch agent, tarayıcı eklentisi ve bilinen kalıplar
+- **Privacy** - Safari, Chrome ve Firefox geçmişi, çerez ve önbellek temizliği; sistem izleri için zaman filtresi
 
 ### Performans
 
-- **Optimization** — Giriş öğeleri ve launch agent'ları aç/kapat
-- **Maintenance** — 10 bakım görevi: RAM boşaltma, bakım scriptleri, izin onarımı, Launch Services yeniden oluşturma, Spotlight yeniden indeksleme, DNS flush, Time Machine snapshot inceltme. Görevler güvenli / yıkıcı olarak etiketlenir; **Run All** onay ister
+- **Optimization** - Giriş öğeleri ve launch agent'ları aç/kapat
+- **Maintenance** - 10 bakım görevi: RAM boşaltma, bakım scriptleri, izin onarımı, Launch Services yeniden oluşturma, Spotlight yeniden indeksleme, DNS flush, Time Machine snapshot inceltme. Görevler güvenli / yıkıcı olarak etiketlenir; **Run All** onay ister
 
 ### Uygulamalar
 
-- **Uninstaller** — 10 seviyeli eşleştirme motoru; 17+ Library alt klasöründe ilişkili dosyaları bulur; tam kaldırma, uygulama sıfırlama, kullanılmayan uygulama tespiti
-- **Updater** — Sparkle appcast ile kurulu uygulamalarda güncelleme kontrolü
+- **Uninstaller** - 10 seviyeli eşleştirme motoru; 17+ Library alt klasöründe ilişkili dosyaları bulur; tam kaldırma, uygulama sıfırlama, kullanılmayan uygulama tespiti
+- **Updater** - Sparkle appcast ile kurulu uygulamalarda güncelleme kontrolü
 
 ### Dosyalar
 
-- **Space Lens** — Disk kullanımını treemap ile görselleştir; drill-down gezinme
-- **Large & Old Files** — 50 MB üzeri dosyaları boyut ve son erişim tarihine göre listele
-- **Duplicates** — Aşamalı kopya bulucu (boyut → kısmi hash → tam hash → inode)
-- **Shredder** — Güvenli silme (standart, kalıcı, üzerine yazma modları)
+- **Space Lens** - Disk kullanımını treemap ile görselleştir; drill-down gezinme
+- **Large & Old Files** - 50 MB üzeri dosyaları boyut ve son erişim tarihine göre listele
+- **Duplicates** - Aşamalı kopya bulucu (boyut → kısmi hash → tam hash → inode)
+- **Shredder** - Güvenli silme (standart, kalıcı, üzerine yazma modları)
 
 ### Menü çubuğu widget'ı
 
 - CPU, bellek, disk ve pil için canlı halka göstergeleri
 - Ağ hızı, uptime, swap kullanımı
-- Öneriler ("Kullanıcı önbelleği 2.5 GB'a ulaştı — System Junk çalıştır")
+- Öneriler ("Kullanıcı önbelleği 2.5 GB'a ulaştı - System Junk çalıştır")
 - Son kötü amaçlı yazılım taraması durumu
 - Harici diskler ve monitörler
 - İsteğe bağlı düşük disk / yüksek bellek uyarıları
@@ -96,12 +96,12 @@ curl -fsSL https://raw.githubusercontent.com/iliyami/MacSai/main/scripts/install
 ## ⚙️ İlk Kurulum ve Önerilen Ayarlar
 
 1. **Tam Disk Erişimi (bazı modüller için):** Mail Attachments, Privacy ve Malware modülleri korumalı alanları tarayabilmek için **Sistem Ayarları → Gizlilik ve Güvenlik → Tam Disk Erişimi** → **+** ile Applications'tan **Mac Sai** ekle → uygulamayı yeniden başlat
-2. **İlk Smart Scan:** Ana ekrandan **Smart Scan** çalıştır — temizlik, koruma ve performans özetini tek seferde gör
+2. **İlk Smart Scan:** Ana ekrandan **Smart Scan** çalıştır - temizlik, koruma ve performans özetini tek seferde gör
 3. **Dry-run / önizleme:** İlk temizlikte ne silineceğini incele; silme varsayılan olarak **Çöp Kutusu'na** gider (geri alınabilir)
-4. **Menü çubuğu widget'ı:** Kenar çubuğundan etkinleştir — CPU, bellek ve disk durumunu hızlıca izle
+4. **Menü çubuğu widget'ı:** Kenar çubuğundan etkinleştir - CPU, bellek ve disk durumunu hızlıca izle
 5. **Maintenance görevleri:** **Run All** kullanmadan önce yıkıcı (disruptive) etiketli görevleri oku; Spotlight yeniden indeksleme gibi işlemler geçici yavaşlamaya neden olabilir
 
-> 💡 Tam kaldırma için [AppCleaner](AppCleaner.md) hâlâ hafif ve odaklı bir alternatiftir; Mac Sai daha geniş bir paket sunar (malware, bakım, Space Lens, duplicate finder). Güncelleme takibi için [Latest](Latest.md) ile birlikte kullanılabilir — Mac Sai'nin kendi Updater modülü Sparkle tabanlı uygulamaları kontrol eder.
+> 💡 Tam kaldırma için [AppCleaner](AppCleaner.md) hâlâ hafif ve odaklı bir alternatiftir; Mac Sai daha geniş bir paket sunar (malware, bakım, Space Lens, duplicate finder). Güncelleme takibi için [Latest](Latest.md) ile birlikte kullanılabilir - Mac Sai'nin kendi Updater modülü Sparkle tabanlı uygulamaları kontrol eder.
 
 ---
 
@@ -111,7 +111,7 @@ curl -fsSL https://raw.githubusercontent.com/iliyami/MacSai/main/scripts/install
 
 1. Mac Sai'yi aç
 2. **Smart Scan** → tarama başlar; 13 modül canlı ilerleme gösterir
-3. Sonuçları incele — temizlik, koruma ve performans önerileri listelenir
+3. Sonuçları incele - temizlik, koruma ve performans önerileri listelenir
 4. Onayladığın öğeleri temizle veya modül modül ilerle
 
 ### System Junk temizliği
@@ -119,7 +119,7 @@ curl -fsSL https://raw.githubusercontent.com/iliyami/MacSai/main/scripts/install
 1. Kenar çubuğundan **System Junk** seç
 2. **Scan** → 16 kategoride bulunan dosyalar listelenir
 3. Silmek istemediğin kategorilerin işaretini kaldır
-4. **Clean** — dosyalar varsayılan olarak Çöp Kutusu'na gider
+4. **Clean** - dosyalar varsayılan olarak Çöp Kutusu'na gider
 
 ### Kötü amaçlı yazılım taraması
 

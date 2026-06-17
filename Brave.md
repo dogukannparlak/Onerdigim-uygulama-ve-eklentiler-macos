@@ -177,7 +177,7 @@ Tarayıcının tema, adres çubuğu, sekmeler ve kenar çubuğu davranışını 
 
 #### Yer imleri
 
-- **Yer işaretleri çubuğunu göster:** **Yalnızca yeni sekme sayfasında** — günlük gezinmede üst çubuk sade kalır, yeni sekmede yer imlerine erişilir
+- **Yer işaretleri çubuğunu göster:** **Yalnızca yeni sekme sayfasında** - günlük gezinmede üst çubuk sade kalır, yeni sekmede yer imlerine erişilir
 - **Sekme gruplarını yer işareti çubuğunda göster:** **Açık**; gruplu sekmeler yer imleri çubuğunda görünür
 - **Herhangi bir cihazda oluşturulan yeni sekme gruplarını yer işareti çubuğuna otomatik olarak sabitle:** **Açık**; Sync kullanıyorsan gruplar cihazlar arası yer imlerine yansır
 
@@ -233,7 +233,7 @@ Tarayıcının tema, adres çubuğu, sekmeler ve kenar çubuğu davranışını 
 
 #### Kenar çubuğu
 
-- **Kenar çubuğunu göster:** **Hiçbir Zaman** — yan panel kapalı, ekran alanı geniş kalır
+- **Kenar çubuğunu göster:** **Hiçbir Zaman** - yan panel kapalı, ekran alanı geniş kalır
 - **Konum:** **Sağda göster** (açık olsaydı sol veya sağ seçilebilir)
 
 ---

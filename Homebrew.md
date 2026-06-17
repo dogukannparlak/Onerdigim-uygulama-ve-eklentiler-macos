@@ -10,19 +10,19 @@ Güncel · macOS (Apple Silicon / Intel) · BSD-2-Clause / Açık Kaynak · Pake
 
 Homebrew, macOS'ta yazılım kurmanın en pratik yoludur. Terminal üzerinden `brew install` ile geliştirici araçlarını, `brew install --cask` ile masaüstü uygulamalarını `.dmg` indirip sürüklemek yerine doğrudan kurabilirsin.
 
-Terminal'e alışkın değilsen grafik arayüz için **[Applite](Applite.md)** kullan — Homebrew Cask uygulamalarını tek tıkla kurar, günceller ve kaldırır.
+Terminal'e alışkın değilsen grafik arayüz için **[Applite](Applite.md)** kullan - Homebrew Cask uygulamalarını tek tıkla kurar, günceller ve kaldırır.
 
 ---
 
 ## Öne Çıkan Özellikler
 
-- **Formula** — CLI araçları ve kütüphaneler (`git`, `node`, `python` vb.)
-- **Cask** — Masaüstü uygulamaları (`.app`); bu repodaki rehberlerin çoğu cask kullanır
-- **Tek komutla kurulum** — İndirme, kurulum ve PATH yapılandırması otomatik
-- **Güncelleme yönetimi** — `brew upgrade` ile tüm paketleri güncelle
-- **Temiz kaldırma** — `brew uninstall` ile paketi ve bağımlılıklarını kaldır
-- **Açık kaynak** — [Homebrew/brew](https://github.com/Homebrew/brew) topluluk tarafından sürdürülür
-- **Applite entegrasyonu** — Cask'leri grafik arayüzden yönetmek için [Applite](Applite.md) kullanılabilir
+- **Formula** - CLI araçları ve kütüphaneler (`git`, `node`, `python` vb.)
+- **Cask** - Masaüstü uygulamaları (`.app`); bu repodaki rehberlerin çoğu cask kullanır
+- **Tek komutla kurulum** - İndirme, kurulum ve PATH yapılandırması otomatik
+- **Güncelleme yönetimi** - `brew upgrade` ile tüm paketleri güncelle
+- **Temiz kaldırma** - `brew uninstall` ile paketi ve bağımlılıklarını kaldır
+- **Açık kaynak** - [Homebrew/brew](https://github.com/Homebrew/brew) topluluk tarafından sürdürülür
+- **Applite entegrasyonu** - Cask'leri grafik arayüzden yönetmek için [Applite](Applite.md) kullanılabilir
 
 ---
 
@@ -34,7 +34,7 @@ Terminal'e alışkın değilsen grafik arayüz için **[Applite](Applite.md)** k
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Kurulum sırasında Xcode Command Line Tools istenebilir — onayla.
+Kurulum sırasında Xcode Command Line Tools istenebilir - onayla.
 
 ### Adım 2: PATH ayarla
 
@@ -79,7 +79,7 @@ brew doctor    # PATH ve izin sorunlarını kontrol et
 brew cleanup   # Eski sürüm dosyalarını temizle (isteğe bağlı)
 ```
 
-Applite kullanıyorsan ilk açılışta **Use existing brew** seçeneğini seç — böylece mevcut cask'lerin Applite'ta görünür.
+Applite kullanıyorsan ilk açılışta **Use existing brew** seçeneğini seç - böylece mevcut cask'lerin Applite'ta görünür.
 
 ---
 
@@ -241,10 +241,10 @@ Kurmadan önce `brew info --cask <isim>` ile doğru paketi hedeflediğini kontro
 
 - 🌐 [Resmi Web Sitesi](https://brew.sh)
 - 📖 [Homebrew Dokümantasyonu](https://docs.brew.sh)
-- 💾 [GitHub — Homebrew/brew](https://github.com/Homebrew/brew)
+- 💾 [GitHub - Homebrew/brew](https://github.com/Homebrew/brew)
 - 📦 [Cask Kataloğu](https://formulae.brew.sh/cask/)
 - 🧰 [Formula Kataloğu](https://formulae.brew.sh/formula/)
-- 🖥️ [Applite — Grafik arayüz](Applite.md)
+- 🖥️ [Applite - Grafik arayüz](Applite.md)
 
 ---
 

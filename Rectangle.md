@@ -16,16 +16,16 @@ Tamamen ücretsiz ve açık kaynaktır; menü çubuğunda hafif bir simgeyle ark
 
 ## ✨ Öne Çıkan Özellikler
 
-- **Klavye kısayolları** — Yarım ekran, çeyrek, üçte bir, dörtte bir, maximize, restore ve daha fazlası
-- **Snap alanları** — Pencereyi ekran kenarına veya köşesine sürükleyerek boyutlandırma
-- **Spectacle uyumluluğu** — İlk çalıştırmada Spectacle varsayılan kısayollarını seçebilirsin
-- **Kısayol tekrarı** — Aynı kısayolu tekrarlayarak boyut döngüsü (ör. üçte birler arasında geçiş)
-- **Çoklu monitör** — Sonraki / önceki ekrana taşıma; isteğe bağlı monitörler arası gezinme
-- **Ekstra eylemler** — Yalnızca yüksekliği maximize et, neredeyse tam ekran, kenara taşı (boyut değiştirmeden)
-- **Uygulama yok sayma** — Belirli uygulamada kısayolları geçici olarak devre dışı bırak
-- **JSON yapılandırma** — Ayarları dışa / içe aktar; makineler arası paylaş
-- **URL şeması** — `rectangle://execute-action` ile otomasyon ve betik entegrasyonu
-- **Tamamen ücretsiz** — Açık kaynak ([MIT](https://github.com/rxhanson/Rectangle/blob/main/LICENSE)); telemetri yok
+- **Klavye kısayolları** - Yarım ekran, çeyrek, üçte bir, dörtte bir, maximize, restore ve daha fazlası
+- **Snap alanları** - Pencereyi ekran kenarına veya köşesine sürükleyerek boyutlandırma
+- **Spectacle uyumluluğu** - İlk çalıştırmada Spectacle varsayılan kısayollarını seçebilirsin
+- **Kısayol tekrarı** - Aynı kısayolu tekrarlayarak boyut döngüsü (ör. üçte birler arasında geçiş)
+- **Çoklu monitör** - Sonraki / önceki ekrana taşıma; isteğe bağlı monitörler arası gezinme
+- **Ekstra eylemler** - Yalnızca yüksekliği maximize et, neredeyse tam ekran, kenara taşı (boyut değiştirmeden)
+- **Uygulama yok sayma** - Belirli uygulamada kısayolları geçici olarak devre dışı bırak
+- **JSON yapılandırma** - Ayarları dışa / içe aktar; makineler arası paylaş
+- **URL şeması** - `rectangle://execute-action` ile otomasyon ve betik entegrasyonu
+- **Tamamen ücretsiz** - Açık kaynak ([MIT](https://github.com/rxhanson/Rectangle/blob/main/LICENSE)); telemetri yok
 
 ---
 
@@ -62,11 +62,11 @@ brew upgrade --cask rectangle
 1. **Erişilebilirlik izni (zorunlu):** Rectangle pencere boyutlandırmak için bu izne ihtiyaç duyar → Sistem Ayarları → Gizlilik ve Güvenlik → **Erişilebilirlik** → Rectangle'ı etkinleştir
 2. **İlk çalıştırma sihirbazı:** Spectacle alışkanlığın varsa Spectacle varsayılan kısayollarını seç; yoksa Rectangle varsayılanlarıyla devam et
 3. **Girişte başlat:** Rectangle menüsünden veya Sistem Ayarları → Genel → Giriş Öğeleri ile oturum açılışında başlat
-4. **Snap sürükleme:** **Preferences → General** → **Snap windows by dragging** — Windows/Linux alışkanlığı için açık bırak; Notification Center donması yaşarsan kapat (aşağıdaki Bilinen Sorunlar)
+4. **Snap sürükleme:** **Preferences → General** → **Snap windows by dragging** - Windows/Linux alışkanlığı için açık bırak; Notification Center donması yaşarsan kapat (aşağıdaki Bilinen Sorunlar)
 5. **Monitörler arası gezinme:** Çoklu ekran kullanıyorsan **Allow windows to traverse across displays on subsequent left or right executions** seçeneğini değerlendir
 6. **Çakışan uygulamalar:** Xcode, Terminal veya oyun gibi aynı kısayolları kullanan uygulamalar için menüden **Ignore app** ile Rectangle kısayollarını o uygulamada devre dışı bırak
 
-> 💡 İlk kurulumda kısayollar çalışmıyorsa izin listesinde Rectangle görünse bile TCC eşleşmesi bozulmuş olabilir — aşağıdaki "Bilinen Sorunlar" bölümündeki yeniden yetkilendirme adımlarını uygula.
+> 💡 İlk kurulumda kısayollar çalışmıyorsa izin listesinde Rectangle görünse bile TCC eşleşmesi bozulmuş olabilir - aşağıdaki "Bilinen Sorunlar" bölümündeki yeniden yetkilendirme adımlarını uygula.
 
 ---
 
@@ -75,7 +75,7 @@ brew upgrade --cask rectangle
 ### Klavye ile pencere konumlandırma
 
 1. Konumlandırmak istediğin pencereyi öne getir (tıkla veya `Cmd + Tab`)
-2. Atanmış kısayolu kullan — örneğin sol yarım ekran, sağ yarım ekran veya maximize
+2. Atanmış kısayolu kullan - örneğin sol yarım ekran, sağ yarım ekran veya maximize
 3. Aynı kısayolu tekrarlayarak döngüsel boyut değişimlerini dene (ör. üçte birler)
 
 ### Snap alanları (sürükleyerek)
@@ -140,7 +140,7 @@ Kullanılabilir eylem adları için [GitHub README](https://github.com/rxhanson/
 | Kısayollar çalışmıyor | Erişilebilirlik izni eksik veya TCC bozulmuş | Sistem Ayarları → Erişilebilirlik → Rectangle'ı kapat, listeden kaldır, yeniden ekle; gerekirse `tccutil reset All com.knollsoft.Rectangle` |
 | Pencere beklenen boyuta oturmuyor | Başka pencere yöneticisi veya çakışan kısayol | Raycast, AltTab veya benzeri araçları kapat; menüden eylemi dene; kısayolu değiştir |
 | iTerm2 boyutu hafif kayık | Karakter genişliği snap'i | `defaults write com.googlecode.iterm2 DisableWindowSizeSnap -integer 1` |
-| Notification Center donuyor | Snap sürükleme (nadir) | **Snap windows by dragging** seçeneğini kapat — [issue #317](https://github.com/rxhanson/Rectangle/issues/317) |
+| Notification Center donuyor | Snap sürükleme (nadir) | **Snap windows by dragging** seçeneğini kapat - [issue #317](https://github.com/rxhanson/Rectangle/issues/317) |
 | Space / masaüstü geçişi yok | Apple public API sunmuyor | Ücretsiz Rectangle'ta yok; Space eylemleri yalnızca Rectangle Pro'da |
 | Homebrew kurulumunda ayar kayboluyor | Eski plist kalıntısı | `brew uninstall --zap rectangle` ardından `brew install --cask rectangle` |
 | macOS güncellemesi sonrası bozulma | TCC veya sistem servisleri | Mac'i kilitle/aç, yeniden başlat; izinleri sıfırla |

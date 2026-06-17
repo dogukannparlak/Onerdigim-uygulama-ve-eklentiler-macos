@@ -16,19 +16,19 @@ AltTab, macOS'un yerleşik `Cmd + Tab` kısayolunun yalnızca uygulama değişti
 
 *(Yalnızca ücretsiz sürüm özellikleri)*
 
-- **Küçük resimli pencere geçişi** — Tüm açık pencereleri canlı önizlemeli küçük resimlerle listeler; güvenilir ve hızlı geçiş
-- **Karanlık Mod** — macOS görünümünü (açık/koyu) otomatik izler; geçiş aracı her zaman yerel görünür
-- **Canlı önizleme** — Seçili pencereyi geçiş aracından ayrılmadan tam boyutta, en üstte önizle
-- **Pencere denetimleri** — Trafik ışığı simgeleriyle geçiş aracından kapat, küçült veya tam ekran yap
-- **Durum rozetleri** — Hangi pencerelerin küçültülmüş, gizlenmiş veya başka bir Space'te olduğunu bir bakışta gör
-- **Anında bırakma veya açık tutma** — Tuşu bırakınca hemen geç veya paneli açık tutup kendi hızında göz at
-- **Özelleştirilebilir kısayol** — Neredeyse her tuş bileşimiyle kısayol tanımla; uygulama, Space veya ekrana göre süz
-- **Trackpad hareketleri** — Klavyesiz tetikleme; kaydırarak pencereler arasında gezin
-- **İstisnalar** — Sanal makine, uzak masaüstü veya gürültülü uygulamaları geçiş listesinden gizle
-- **Erişilebilirlik** — VoiceOver, yapışkan tuşlar ve saydamlığı azaltma ile uyumlu
-- **Gizlilik** — Telemetri yok, izleme yok; ağ yalnızca güncelleme denetimi ve isteğe bağlı çökme raporları için
-- **Komut satırı** — `--list`, `--focus`, `--show` gibi komutlarla pencere listeleme ve odaklama
-- **21 dil desteği** — Türkçe dahil tam yerelleştirme
+- **Küçük resimli pencere geçişi** - Tüm açık pencereleri canlı önizlemeli küçük resimlerle listeler; güvenilir ve hızlı geçiş
+- **Karanlık Mod** - macOS görünümünü (açık/koyu) otomatik izler; geçiş aracı her zaman yerel görünür
+- **Canlı önizleme** - Seçili pencereyi geçiş aracından ayrılmadan tam boyutta, en üstte önizle
+- **Pencere denetimleri** - Trafik ışığı simgeleriyle geçiş aracından kapat, küçült veya tam ekran yap
+- **Durum rozetleri** - Hangi pencerelerin küçültülmüş, gizlenmiş veya başka bir Space'te olduğunu bir bakışta gör
+- **Anında bırakma veya açık tutma** - Tuşu bırakınca hemen geç veya paneli açık tutup kendi hızında göz at
+- **Özelleştirilebilir kısayol** - Neredeyse her tuş bileşimiyle kısayol tanımla; uygulama, Space veya ekrana göre süz
+- **Trackpad hareketleri** - Klavyesiz tetikleme; kaydırarak pencereler arasında gezin
+- **İstisnalar** - Sanal makine, uzak masaüstü veya gürültülü uygulamaları geçiş listesinden gizle
+- **Erişilebilirlik** - VoiceOver, yapışkan tuşlar ve saydamlığı azaltma ile uyumlu
+- **Gizlilik** - Telemetri yok, izleme yok; ağ yalnızca güncelleme denetimi ve isteğe bağlı çökme raporları için
+- **Komut satırı** - `--list`, `--focus`, `--show` gibi komutlarla pencere listeleme ve odaklama
+- **21 dil desteği** - Türkçe dahil tam yerelleştirme
 
 ---
 
@@ -56,7 +56,7 @@ brew install --cask alt-tab
 1. **Erişilebilirlik izni (zorunlu):** İlk açılışta macOS izin ister → Sistem Ayarları → Gizlilik ve Güvenlik → Erişilebilirlik → AltTab'i etkinleştir
 2. **Ekran kaydı izni (önerilen):** Küçük resimler için Sistem Ayarları → Gizlilik ve Güvenlik → Ekran ve Sistem Ses Kaydı → AltTab'i etkinleştir
 3. **Girişte başlat:** Menü çubuğundaki AltTab simgesi → **Preferences** → **General** → **Launch AltTab at login**
-4. **Kısayolu özelleştir (isteğe bağlı):** **Preferences → Controls** — Windows alışkanlığı için `Cmd + Tab` veya mevcut `Option + Tab`'ı koru
+4. **Kısayolu özelleştir (isteğe bağlı):** **Preferences → Controls** - Windows alışkanlığı için `Cmd + Tab` veya mevcut `Option + Tab`'ı koru
 5. **Dil:** **Preferences → General → Language → Türkçe**
 
 > 💡 `Cmd + Tab` zaten macOS uygulama geçişine atanmıştır. Windows'taki gibi pencere geçişi için varsayılan `Option + Tab` genelde daha az çakışma yaratır; istersen Controls sekmesinden değiştirebilirsin.
@@ -69,12 +69,12 @@ brew install --cask alt-tab
 
 1. `Option + Tab` tuşlarına bas ve **Option**'ı basılı tut
 2. **Tab** ile ileri, **Shift + Tab** ile geri git (ok tuşları veya fareyle küçük resim üzerine gelme de çalışır)
-3. **Option**'ı bırak, **Space**'e bas veya küçük resme tıkla — seçili pencereye geç
+3. **Option**'ı bırak, **Space**'e bas veya küçük resme tıkla - seçili pencereye geç
 4. **Esc** ile geçişi iptal et
 
 ### Yalnızca aktif uygulamanın pencereleri
 
-Varsayılan ikinci kısayol: `Option + `` (backtick / ters tırnak) — aynı uygulama içindeki pencereler arasında geçiş.
+Varsayılan ikinci kısayol: `Option + `` (backtick / ters tırnak) - aynı uygulama içindeki pencereler arasında geçiş.
 
 ### Geçiş aracından pencere yönetimi
 
@@ -127,7 +127,7 @@ AltTab çalışırken Terminal'den:
 
 ## 📝 Notlar
 
-> AltTab tamamen ücretsiz ve açık kaynaklıdır ([GPL-3.0](https://github.com/lwouis/alt-tab-macos/blob/master/LICENCE.md)). Pro sürüm; arama, ek görünüm stilleri, otomatik boyutlandırma ve birden fazla bağımsız kısayol gibi ileri özellikler ekler — bu rehber yalnızca ücretsiz sürümü kapsar. Günlük pencere geçişi için ücretsiz sürüm çoğu kullanıcıya fazlasıyla yeterlidir.
+> AltTab tamamen ücretsiz ve açık kaynaklıdır ([GPL-3.0](https://github.com/lwouis/alt-tab-macos/blob/master/LICENCE.md)). Pro sürüm; arama, ek görünüm stilleri, otomatik boyutlandırma ve birden fazla bağımsız kısayol gibi ileri özellikler ekler - bu rehber yalnızca ücretsiz sürümü kapsar. Günlük pencere geçişi için ücretsiz sürüm çoğu kullanıcıya fazlasıyla yeterlidir.
 
 ---
 

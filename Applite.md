@@ -16,15 +16,15 @@ Homebrew henüz kurulu değilse veya temel komutları öğrenmek istiyorsan önc
 
 ## ✨ Öne Çıkan Özellikler
 
-- **Tek tıkla kur / güncelle / kaldır** — Homebrew Cask uygulamalarını grafik arayüzden yönet
-- **Keşfet galerisi** — Kategorilere ayrılmış, seçilmiş uygulama kataloğu
-- **Bulanık arama** — Homebrew kataloğundaki tüm cask'leri hızlıca bul
-- **Mevcut Homebrew ile uyum** — Var olan `brew` kurulumunu kullanabilir veya Applite'a özel ayrı bir kurulum oluşturabilirsin
-- **Güncelleme denetimi** — Yüklü cask'ler için güncelleme bildirimi; "greedy" güncelleme davranışı ayarlanabilir
-- **Ayna (mirror) indirme** — Yavaş veya kısıtlı ağlarda alternatif indirme kaynakları (ayarlardan yapılandırılır)
-- **Sistem proxy desteği** — HTTP, HTTPS ve SOCKS5 proxy ayarlarını kullanır
-- **Gizlilik** — Telemetri yok, izleme yok
-- **Açık kaynak** — MIT lisanslı; [GitHub](https://github.com/milanvarady/Applite) üzerinden denetlenebilir
+- **Tek tıkla kur / güncelle / kaldır** - Homebrew Cask uygulamalarını grafik arayüzden yönet
+- **Keşfet galerisi** - Kategorilere ayrılmış, seçilmiş uygulama kataloğu
+- **Bulanık arama** - Homebrew kataloğundaki tüm cask'leri hızlıca bul
+- **Mevcut Homebrew ile uyum** - Var olan `brew` kurulumunu kullanabilir veya Applite'a özel ayrı bir kurulum oluşturabilirsin
+- **Güncelleme denetimi** - Yüklü cask'ler için güncelleme bildirimi; "greedy" güncelleme davranışı ayarlanabilir
+- **Ayna (mirror) indirme** - Yavaş veya kısıtlı ağlarda alternatif indirme kaynakları (ayarlardan yapılandırılır)
+- **Sistem proxy desteği** - HTTP, HTTPS ve SOCKS5 proxy ayarlarını kullanır
+- **Gizlilik** - Telemetri yok, izleme yok
+- **Açık kaynak** - MIT lisanslı; [GitHub](https://github.com/milanvarady/Applite) üzerinden denetlenebilir
 
 ---
 
@@ -49,10 +49,10 @@ brew install --cask applite
 
 ## ⚙️ İlk Kurulum ve Önerilen Ayarlar
 
-1. **Homebrew seçimi:** İlk açılışta **Use existing brew** (mevcut kurulumu kullan) veya **Create new installation** (Applite'a özel kurulum) seç — mevcut cask'lerini görmek istiyorsan ilkini seç
-2. **Katalog yenileme sıklığı:** Ayarlar → App Catalog fetch frequency — ilk yükleme yavaşsa sıklığı artır
-3. **Greedy güncelleme:** Ayarlar → Greedy upgrade checking — uygulama içi güncellemeleri de kontrol etmek istiyorsan aç
-4. **Ayna indirme (isteğe bağlı):** Ayarlar → Mirror Downloads — ağ erişimi kısıtlıysa etkinleştir
+1. **Homebrew seçimi:** İlk açılışta **Use existing brew** (mevcut kurulumu kullan) veya **Create new installation** (Applite'a özel kurulum) seç - mevcut cask'lerini görmek istiyorsan ilkini seç
+2. **Katalog yenileme sıklığı:** Ayarlar → App Catalog fetch frequency - ilk yükleme yavaşsa sıklığı artır
+3. **Greedy güncelleme:** Ayarlar → Greedy upgrade checking - uygulama içi güncellemeleri de kontrol etmek istiyorsan aç
+4. **Ayna indirme (isteğe bağlı):** Ayarlar → Mirror Downloads - ağ erişimi kısıtlıysa etkinleştir
 5. **Applite güncellemeleri:** Uygulama Sparkle ile kendi güncellemelerini bildirir
 
 > 💡 Applite yalnızca **Homebrew Cask** ile kurulan uygulamaları yönetir. App Store veya `.dmg` ile manuel kurulan uygulamalar listede görünmez; yönetmek için Applite üzerinden yeniden kurman gerekir.
@@ -77,7 +77,7 @@ brew install --cask applite
 ### Kaldırma
 
 1. **Installed** (Yüklü) sekmesinden uygulamayı bul
-2. **Uninstall** ile kaldır — arka planda `brew uninstall --cask` çalışır
+2. **Uninstall** ile kaldır - arka planda `brew uninstall --cask` çalışır
 
 ### Homebrew token vs görünen ad
 
@@ -124,7 +124,7 @@ Applite fare odaklı bir arayüzdür; temel gezinme arama ve tıklama ile yapıl
 
 ## 📝 Notlar
 
-> Applite, Homebrew'un GUI katmanıdır; tam bir uygulama mağazası değil. Yalnızca [Homebrew Cask kataloğunda](https://formulae.brew.sh/cask/) bulunan uygulamaları kurabilirsin. AppCleaner gibi kalıntı temizliği yapmaz — kaldırma işlemi `brew uninstall --cask` ile sınırlıdır. Bu repodaki diğer uygulama rehberlerindeki `brew install --cask` komutlarını Applite üzerinden de çalıştırabilirsin. Bağımsız geliştirici projesi olduğu için güncellemeler dönemsel gelir; açık kaynak olduğu için topluluk katkısına açıktır.
+> Applite, Homebrew'un GUI katmanıdır; tam bir uygulama mağazası değil. Yalnızca [Homebrew Cask kataloğunda](https://formulae.brew.sh/cask/) bulunan uygulamaları kurabilirsin. AppCleaner gibi kalıntı temizliği yapmaz - kaldırma işlemi `brew uninstall --cask` ile sınırlıdır. Bu repodaki diğer uygulama rehberlerindeki `brew install --cask` komutlarını Applite üzerinden de çalıştırabilirsin. Bağımsız geliştirici projesi olduğu için güncellemeler dönemsel gelir; açık kaynak olduğu için topluluk katkısına açıktır.
 
 ---
 
