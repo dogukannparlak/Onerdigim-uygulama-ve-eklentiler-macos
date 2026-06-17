@@ -546,38 +546,43 @@ Klavye gezinme, kaydırma hareketleri ve kopyalama geri bildirimi ayarları.
 
 **Ayarlar yolu:** `brave://settings/system`
 
-Arka plan davranışı, donanım hızlandırma, bellek/güç yönetimi ve pencere kapatma ayarları.
-
-#### Genel
+Donanım hızlandırma, pencere kapatma davranışı, bellek ve pil yönetimi ayarları.
 
 
-| Ayar                                                                | Önerilen | Açıklama                                                              |
-| ------------------------------------------------------------------- | -------- | --------------------------------------------------------------------- |
-| **Kısayollar**                                                      | -        | Brave ve eklenti klavye kısayollarını yönet                           |
-| **Brave kapandığında arka plan uygulamaları çalıştırmaya devam et** | **Açık** | Bildirimler ve arka plan görevleri kapanınca da çalışabilir           |
-| **Kullanılabilir olduğunda grafik hızlandırmayı kullan**            | Kapalı   | Varsayılan olarak kapalı; siyah ekran veya takılma yaşarsan açık dene |
-| **Bilgisayarınızın proxy ayarlarını açın**                          | -        | Sistem Ayarları → Ağ → … → Proksiler'e gider                          |
-| **Son sekmeyi kapatırken pencereyi kapatın**                        | Kapalı   | Kapalıyken son sekme kapanınca yeni boş sekme açılır                  |
-| **Çok sayıda sekmesi olan pencereleri kapatırken beni uyar**        | **Açık** | Yanlışlıkla onlarca sekmeyi kapatmayı önler                           |
-| **Tam ekrandan çıkmak için Esc'ye basılması gerektiğini söyle**     | **Açık** | Tam ekranda kısa hatırlatma gösterir                                  |
+| Ayar                                                                 | Önerilen | Açıklama                                                                 |
+| -------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------ |
+| **Kısayollar**                                                       | -        | Brave ve eklenti klavye kısayollarını yönet                              |
+| **Kullanılabilir olduğunda grafik hızlandırmayı kullan**             | **Açık** | GPU ile sayfa çizimi; macOS'ta genelde açık bırak. Siyah ekran veya takılma olursa kapat |
+| **Bilgisayarınızın proxy ayarlarını açın**                           | -        | Sistem Ayarları → Ağ → … → Proksiler'e gider                             |
+| **Son sekmeyi kapatırken pencereyi kapatın**                         | Kapalı   | Kapalıyken son sekme kapanınca yeni boş sekme açılır; pencere kapanmaz |
+| **Çok sayıda sekmesi olan pencereleri kapatırken beni uyar**        | Kapalı   | Açık olsaydı çok sekme içeren pencere kapatılırken onay sorardı          |
+| **⌘Q ile çıkmadan önce uyarı göster**                                | **Açık** | Yanlışlıkla tüm Brave'i kapatmayı önler                                  |
+| **Çıkmak için Esc'ye basılması gerektiğini söyleyen tam ekran hatırlatıcısını göster** | **Açık** | Tam ekranda kısa hatırlatma gösterir                                     |
 
 
 #### Bellek
 
+Brave, etkin olmayan sekmelerin belleğini boşaltarak aktif sekmelere ve diğer uygulamalara daha fazla kaynak verir. Etkin olmayan sekmelere geri döndüğünde otomatik yeniden yüklenir.
 
-| Ayar                                | Önerilen          | Açıklama                                                                 |
-| ----------------------------------- | ----------------- | ------------------------------------------------------------------------ |
-| **Bellek tasarrufu**                | Kapalı            | Açıkken pasif sekmelerin belleği boşaltılır; gecikme istemiyorsan kapalı |
-| **Her zaman etkin kalacak siteler** | `www.youtube.com` | Bellek tasarrufu açıksa bu siteler uyutulmaz; video akışı kesilmez       |
 
+| Ayar                                | Önerilen | Açıklama                                                                 |
+| ----------------------------------- | -------- | ------------------------------------------------------------------------ |
+| **Bellek Tasarrufu**                | Kapalı   | Açıkken pasif sekmeler uyutulur; geri dönüşte yeniden yükleme gecikmesi olabilir |
+| **Her zaman etkin kalacak siteler** | -        | Yalnızca Bellek Tasarrufu açıkken anlamlı; eklenen siteler uyutulmaz. Kapalıyken liste boş kalabilir |
+
+
+> Bellek Tasarrufu'nu açarsan video ve müzik akışı için `www.youtube.com` gibi siteleri **Her zaman etkin kalacak siteler** listesine ekle.
 
 #### Güç
 
+Brave, arka plan etkinliğini ve görsel efektleri (ör. kolay kaydırma, video kare hızı) sınırlandırarak pil gücünden tasarruf eder.
 
-| Ayar                     | Önerilen               | Açıklama                                         |
-| ------------------------ | ---------------------- | ------------------------------------------------ |
-| **Enerji tasarrufu**     | **Açık**               | Pil düşükken arka plan ve görsel efektleri kısar |
-| **Etkinleştirme koşulu** | **Pil %20 ve altında** | Yalnızca kritik pil seviyesinde devreye girer    |
+
+| Ayar                                                       | Önerilen               | Açıklama                                         |
+| ---------------------------------------------------------- | ---------------------- | ------------------------------------------------ |
+| **Enerji Tasarrufu**                                       | **Açık**               | Pil düşükken arka plan ve görsel efektleri kısar |
+| **Yalnızca şarjı %20 veya daha azken etkinleştir**         | **Seçili**             | Yalnızca kritik pil seviyesinde devreye girer    |
+| **Bilgisayarım fişe takılı değilken etkinleştir**         | Kapalı                 | Fişten çekildiğinde sürekli enerji tasarrufu; günlük kullanımda gerekmez |
 
 
 #### Brave VPN
