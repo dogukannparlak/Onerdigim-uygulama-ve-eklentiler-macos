@@ -143,14 +143,43 @@ Tarayıcının tema, adres çubuğu, sekmeler ve kenar çubuğu davranışını 
 #### Tema ve araç çubuğu
 
 - **Tema:** Açık / koyu tema ve renk şeması (harici tema sayfasına gider)
-- **Araç çubuğunuzu özelleştirin:** Sürükle-bırak ile düğmeleri düzenle; **Varsayılana sıfırla** ile geri al
-- **Ana Sayfa düğmesini göster:** Kapalı bırakılabilir; adres çubuğunda yer kaplamaz
+- **Araç çubuğunuzu özelleştirin:** Sağ panelden düğmeleri aç/kapat; araç çubuğundaki düğmeleri sürükleyerek yeniden sırala; **Varsayılana sıfırla** ile geri al
+- **Ana Sayfa düğmesini göster:** Kapalı; adres çubuğunda yer kaplamaz
+
+**Araç çubuğu düğmeleri** (`Araç çubuğunuzu özelleştirin` paneli):
+
+
+| Bölüm                    | Düğme / seçenek              | Önerilen | Açıklama                                              |
+| ------------------------ | ---------------------------- | -------- | ----------------------------------------------------- |
+| **Gezinme**              | Ana Sayfa                    | Kapalı   | Geri/ileri yanında ana sayfa kısayolu                 |
+|                          | İleri                        | **Açık** | Geri düğmesinin yanında ileri düğmesi                 |
+|                          | Yer İşareti Ekle             | **Açık** | Hızlı yer imi ekleme                                  |
+|                          | Bölünmüş görünümde aç        | Kapalı   | Sekmeyi yan yana bölünmüş görünümde açar              |
+|                          | Yeni Kişisel Pencere         | **Açık** | Gizli pencere kısayolu                                |
+|                          | Kenar Çubuğu                 | Kapalı   | Yan panel açma düğmesi; kenar çubuğu zaten kapalı     |
+|                          | Sekme Araması                | Kapalı   | Açık sekmeler arasında arama                          |
+|                          | Cüzdan                       | Kapalı   | Brave Wallet kısayolu                                 |
+|                          | Leo YZ                       | Kapalı   | Yerleşik yapay zeka asistanı düğmesi                  |
+|                          | VPN                          | Kapalı   | Brave VPN kısayolu; abonelik yoksa gereksiz           |
+| **Araç çubuğu**          | Şifre Yöneticisi             | Kapalı   | Yerleşik şifre yöneticisi paneli                      |
+|                          | Yer İşaretleri Paneli        | Kapalı   | Yer imlerini yan panelde gösterir                     |
+|                          | Okuma Listesi                | Kapalı   | Daha sonra oku listesi                                |
+|                          | İndirilenler                 | Kapalı   | İndirme geçmişi paneli                                |
+|                          | Tarama Verilerini Sil        | Kapalı   | Geçmiş/çerez temizleme kısayolu                       |
+| **Araçlar ve işlemler**  | Yazdır                       | Kapalı   | Yazdırma iletişim kutusu                              |
+|                          | QR Kodu Oluştur              | Kapalı   | Geçerli sayfa için QR kod                             |
+|                          | Yayınla                      | Kapalı   | Chromecast / ekran yansıtma                           |
+|                          | Bağlantıyı Kopyala           | Kapalı   | Geçerli URL'yi panoya kopyalar                        |
+|                          | Cihazlarınıza gönderin       | Kapalı   | Sync ile diğer cihaza sekme gönderme                  |
+|                          | Görev Yöneticisi             | Kapalı   | Sekme/process bellek kullanımı                        |
+|                          | Geliştirici Araçları         | Kapalı   | DevTools kısayolu; `Cmd + Option + I` ile açılabilir  |
+
 
 #### Yer imleri
 
-- **Yer işaretleri çubuğunu göster:** **Yalnızca yeni sekme sayfasında** - günlük gezinmede üst çubuk sade kalır, yeni sekmede yer imlerine erişilir
-- **Sekme gruplarını yer işaretlerinde göster:** Açık; gruplu sekmeler yer imleri çubuğunda görünür
-- **Herhangi bir cihazda oluşturulmuş yeni sekme gruplarını otomatik olarak yer işaretlerine ekleyin:** Sync kullanıyorsan gruplar cihazlar arası yer imlerine yansır
+- **Yer işaretleri çubuğunu göster:** **Yalnızca yeni sekme sayfasında** — günlük gezinmede üst çubuk sade kalır, yeni sekmede yer imlerine erişilir
+- **Sekme gruplarını yer işareti çubuğunda göster:** **Açık**; gruplu sekmeler yer imleri çubuğunda görünür
+- **Herhangi bir cihazda oluşturulan yeni sekme gruplarını yer işareti çubuğuna otomatik olarak sabitle:** **Açık**; Sync kullanıyorsan gruplar cihazlar arası yer imlerine yansır
 
 #### Adres çubuğu
 
@@ -159,7 +188,8 @@ Tarayıcının tema, adres çubuğu, sekmeler ve kenar çubuğu davranışını 
 | ---------------------------------------------------------- | -------- | ------------------------------------------------------------- |
 | **Adres çubuğunda otomatik tamamlamayı göster**            | **Açık** | Yazarken adres, arama ve komut önerileri listelenir           |
 | **Geniş adres çubuğu kullan**                              | Kapalı   | Standart genişlik yeterli; üst çubukta daha fazla alan kalır  |
-| **Her zaman tam URL'yi göster**                            | **Açık** | Subdomain ve yol gizlenmez; hangi sayfada olduğun net görünür |
+| **Her zaman tam URL'yi göster**                            | Kapalı   | Adres çubuğunda kısaltılmış URL gösterilir; daha sade görünüm |
+| **Tam ekranda araç çubuğunu her zaman göster**             | **Açık** | Tam ekranda üst çubuk gizlenmez; geri/ileri ve adres çubuğu kalır |
 | **Ana içerik alanlarında yuvarlatılmış köşeleri gösterme** | **Açık** | Sayfa içeriği daha düz/keskin köşeli görünür                  |
 
 
@@ -172,27 +202,39 @@ Tarayıcının tema, adres çubuğu, sekmeler ve kenar çubuğu davranışını 
 | **Gözatma geçmişi**           | **Açık** | Daha önce ziyaret ettiğin siteler                         |
 | **Yer imleri**                | **Açık** | Kayıtlı yer imlerinden eşleşme                            |
 | **Hızlı komutlar**            | **Açık** | Ayarlar, geçmiş, indirilenler gibi `brave://` kısayolları |
+| **Leo YZ Asistanı**           | Kapalı   | Adres çubuğu önerilerinde Leo yapay zeka asistanı         |
+
+
+**Adres çubuğu düğmeleri** (özelleştirme paneli → Adres çubuğu):
+
+
+| Düğme                  | Önerilen | Açıklama                                           |
+| ---------------------- | -------- | -------------------------------------------------- |
+| **Ödüller**            | **Açık** | Brave Rewards simgesi; BAT kazanımı ve ayarları    |
+| **RSS beslemesi ekle** | **Açık** | Sayfada RSS varsa abone olma kısayolu              |
+| **Paylaşım Menüsü**    | **Açık** | Sayfayı paylaşma seçenekleri                       |
+| **Uygulamayı yükle**   | **Açık** | PWA destekleyen sitelerde uygulama olarak kurma  |
 
 
 #### Sekmeler
 
 
-| Ayar                                                           | Önerilen | Açıklama                                                   |
-| -------------------------------------------------------------- | -------- | ---------------------------------------------------------- |
-| **Dikey sekmeleri kullan**                                     | Kapalı   | Klasik yatay sekme şeridi                                  |
-| **Sekme kapatma düğmesini her zaman gizle**                    | **Açık** | Sekmeler daha sade; kapatmak için orta tık veya `Cmd + W` |
-| **Sekmeleri kapatmak için orta düğme tıklamasına izin ver**    | **Açık** | Fare tekerleği tıklayınca sekme kapanır                    |
-| **Kaydırılabilir sekme şeridini kullan**                       | Kapalı   | Çok sekme olunca küçülür; kaydırma yerine sıkıştırma       |
-| **Sekme vurgulama modu**                                       | Kart     | Sekmenin üzerine gelince kart önizlemesi                   |
-| **Sekme önizleme bilgi kutucuğunda bellek kullanımını göster** | **Açık** | Hangi sekmenin RAM tükettiğini görürsün                    |
-| **Etkin olmayan sekmelerin görünümü**                          | **Açık** | Pasif sekmelerin simgesi etrafında noktalı daire           |
-| **Sekme hoparlör simgelerinden sessize alma**                  | Kapalı   | Hoparlör simgesine tıklayınca sessize alma çalışır         |
+| Ayar                                                           | Önerilen   | Açıklama                                                  |
+| -------------------------------------------------------------- | ---------- | --------------------------------------------------------- |
+| **Dikey sekmeleri kullan**                                     | Kapalı     | Klasik yatay sekme şeridi                                 |
+| **Sekme hoparlör simgelerinden sessize alma işlevini devre dışı bırak** | Kapalı | Kapalıyken hoparlör simgesine tıklayınca sessize alma çalışır |
+| **Sekme kapatma düğmesini her zaman gizle**                    | Kapalı     | Sekmeler daha sade; kapatmak için orta tık veya `Cmd + W` |
+| **Sekmeleri kapatmak için orta düğme tıklamasına izin ver**    | **Açık**   | Fare tekerleği tıklayınca sekme kapanır                   |
+| **Kaydırılabilir sekme şeridini kullan**                       | Kapalı     | Çok sekme olunca küçülür; kaydırma yerine sıkıştırma      |
+| **Sekme vurgulama modu**                                       | Kart       | Sekmenin üzerine gelince kart önizlemesi                  |
+| **Sekme önizleme bilgi kutucuğunda bellek kullanımını göster** | **Açık**   | Hangi sekmenin RAM tükettiğini görürsün                   |
+| **Etkin olmayan sekmelerin görünümü**                          | **Açık**   | Pasif sekmelerin simgesi etrafında noktalı daire          |
 
 
 #### Kenar çubuğu
 
-- **Kenar çubuğunu göster:** **Hiçbir Zaman** - yan panel kapalı, ekran alanı geniş kalır
-- Konum seçeneği (açık olsaydı): sağ veya sol
+- **Kenar çubuğunu göster:** **Hiçbir Zaman** — yan panel kapalı, ekran alanı geniş kalır
+- **Konum:** **Sağda göster** (açık olsaydı sol veya sağ seçilebilir)
 
 ---
 
@@ -329,12 +371,12 @@ Gizlilik ve güvenlik → **Güvenlik** menüsünden veya doğrudan yukarıdaki 
 **Gelişmiş**
 
 
-| Ayar                                      | Önerilen                        | Açıklama                                                                          |
-| ----------------------------------------- | ------------------------------- | --------------------------------------------------------------------------------- |
-| **Güvenli DNS kullan**                    | **Açık**                        | DNS sorguları şifreli kanaldan gider; ziyaret ettiğin alan adları daha az sızar   |
+| Ayar                                      | Önerilen                        | Açıklama                                                                               |
+| ----------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------- |
+| **Güvenli DNS kullan**                    | **Açık**                        | DNS sorguları şifreli kanaldan gider; ziyaret ettiğin alan adları daha az sızar        |
 | **DNS sağlayıcı seç**                     | **İşletim sistemi varsayılanı** | macOS sistem DNS ayarını kullanır; özel sağlayıcı (Cloudflare, Quad9 vb.) isteğe bağlı |
-| **JavaScript optimizasyonu ve güvenliği** | **Açık**                        | V8 ile sayfalar hızlanır; saldırıya karşı dayanıklılık çok az düşer               |
-| **Sertifikaları yönet**                   | -                               | HTTPS sertifikalarını görüntüle ve yönet                                          |
+| **JavaScript optimizasyonu ve güvenliği** | **Açık**                        | V8 ile sayfalar hızlanır; saldırıya karşı dayanıklılık çok az düşer                    |
+| **Sertifikaları yönet**                   | -                               | HTTPS sertifikalarını görüntüle ve yönet                                               |
 
 
 #### Gizlilik
@@ -509,15 +551,15 @@ Arka plan davranışı, donanım hızlandırma, bellek/güç yönetimi ve pencer
 #### Genel
 
 
-| Ayar                                                                | Önerilen | Açıklama                                                    |
-| ------------------------------------------------------------------- | -------- | ----------------------------------------------------------- |
-| **Kısayollar**                                                      | -        | Brave ve eklenti klavye kısayollarını yönet                 |
-| **Brave kapandığında arka plan uygulamaları çalıştırmaya devam et** | **Açık** | Bildirimler ve arka plan görevleri kapanınca da çalışabilir |
+| Ayar                                                                | Önerilen | Açıklama                                                              |
+| ------------------------------------------------------------------- | -------- | --------------------------------------------------------------------- |
+| **Kısayollar**                                                      | -        | Brave ve eklenti klavye kısayollarını yönet                           |
+| **Brave kapandığında arka plan uygulamaları çalıştırmaya devam et** | **Açık** | Bildirimler ve arka plan görevleri kapanınca da çalışabilir           |
 | **Kullanılabilir olduğunda grafik hızlandırmayı kullan**            | Kapalı   | Varsayılan olarak kapalı; siyah ekran veya takılma yaşarsan açık dene |
-| **Bilgisayarınızın proxy ayarlarını açın**                          | -        | Sistem Ayarları → Ağ → … → Proksiler'e gider                |
-| **Son sekmeyi kapatırken pencereyi kapatın**                        | Kapalı   | Kapalıyken son sekme kapanınca yeni boş sekme açılır        |
-| **Çok sayıda sekmesi olan pencereleri kapatırken beni uyar**        | **Açık** | Yanlışlıkla onlarca sekmeyi kapatmayı önler                 |
-| **Tam ekrandan çıkmak için Esc'ye basılması gerektiğini söyle**     | **Açık** | Tam ekranda kısa hatırlatma gösterir                        |
+| **Bilgisayarınızın proxy ayarlarını açın**                          | -        | Sistem Ayarları → Ağ → … → Proksiler'e gider                          |
+| **Son sekmeyi kapatırken pencereyi kapatın**                        | Kapalı   | Kapalıyken son sekme kapanınca yeni boş sekme açılır                  |
+| **Çok sayıda sekmesi olan pencereleri kapatırken beni uyar**        | **Açık** | Yanlışlıkla onlarca sekmeyi kapatmayı önler                           |
+| **Tam ekrandan çıkmak için Esc'ye basılması gerektiğini söyle**     | **Açık** | Tam ekranda kısa hatırlatma gösterir                                  |
 
 
 #### Bellek
@@ -543,9 +585,9 @@ Arka plan davranışı, donanım hızlandırma, bellek/güç yönetimi ve pencer
 Abonelik yoksa bu ayarlar etkisiz kalır.
 
 
-| Ayar                                          | Önerilen | Açıklama                                             |
-| --------------------------------------------- | -------- | ---------------------------------------------------- |
-| **Brave VPN'de WireGuard protokolü kullanın** | Kapalı   | WireGuard veya varsayılan protokol tercihine göre    |
+| Ayar                                          | Önerilen | Açıklama                                            |
+| --------------------------------------------- | -------- | --------------------------------------------------- |
+| **Brave VPN'de WireGuard protokolü kullanın** | Kapalı   | WireGuard veya varsayılan protokol tercihine göre   |
 | **VPN tepsi simgesini göster**                | Kapalı   | Menü çubuğunda VPN simgesi; kullanmıyorsan gereksiz |
 
 
@@ -600,4 +642,4 @@ Bu repository yalnızca bilgilendirme amaçlıdır. Burada önerilen uygulamalar
 
 ---
 
-*Son güncelleme: 2026-05-24*
+*Son güncelleme: 2026-06-18*
