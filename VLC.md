@@ -2,13 +2,13 @@
 
 > **Kısa Açıklama:** Neredeyse tüm video ve ses formatlarını ek codec paketi gerektirmeden oynatan ücretsiz medya oynatıcısı.
 
-Güncel · macOS · Ücretsiz / açık kaynak · Medya
+Güncel · Windows/macOS/Linux/Android · Ücretsiz / açık kaynak · Medya
 
 ---
 
 ## 📌 Genel Bakış
 
-VLC, VideoLAN tarafından geliştirilen evrensel bir medya oynatıcısıdır. MP4, MKV, AVI, MP3, FLAC ve yüzlerce formatı ek yazılım kurmadan açar. QuickTime Player veya tarayıcı oynatıcıların açamadığı dosyaları, bozuk veya yarım kalmış medyayı bile çoğu zaman oynatabilir.
+VLC, VideoLAN tarafından geliştirilen evrensel bir medya oynatıcısıdır. MP4, MKV, AVI, MP3, FLAC ve yüzlerce formatı ek yazılım kurmadan açar. Windows Media Player veya tarayıcı oynatıcıların açamadığı dosyaları, bozuk veya yarım kalmış medyayı bile çoğu zaman oynatabilir.
 
 ---
 
@@ -18,35 +18,43 @@ VLC, VideoLAN tarafından geliştirilen evrensel bir medya oynatıcısıdır. MP
 - **Altyazı desteği** - SRT, ASS ve diğer formatlar
 - **Dönüştürme** - Video/ses formatı değiştirme
 - **Ağ akışı** - URL ile çevrimiçi video oynatma
-- **Platformlar arası** - macOS, Linux, Windows, Android, iOS
+- **Platformlar arası** - Windows, macOS, Linux, Android, iOS
 - **Ücretsiz** - Reklamsız, açık kaynak
 
 ---
 
 ## 📥 İndirme ve Kurulum
 
-### Yöntem 1: Homebrew (Önerilen)
-
-```bash
-brew install --cask vlc
-```
-
-> Homebrew yüklü değilse: [brew.sh](https://brew.sh)
-
-### Yöntem 2: Resmi Site
+### Yöntem 1: Resmi Site ( Önerilen )
 
 1. [videolan.org/vlc](https://www.videolan.org/vlc/) adresine git
-2. **macOS** için `.dmg` dosyasını indir
-3. `.dmg`'yi aç, VLC'yi **Applications** klasörüne sürükle
+2. **Download VLC** butonuna tıkla
+3. Kurulum sihirbazını takip et
+
+> Kurulumda istenmeyen yazılım tekliflerine dikkat et; yalnızca VLC'yi seç.
+
+### Yöntem 2: Microsoft Store
+
+Microsoft Store'da **VLC** ara (yayıncı: VideoLAN) ve yükle.
+
+### Yöntem 3: WinGet (Terminal)
+
+```powershell
+winget install VideoLAN.VLC
+```
+
+### Yöntem 4: UniGetUI
+
+> UniGetUI açıkken arama çubuğuna **VLC** yaz ve kur.
 
 ---
 
 ## ⚙️ İlk Kurulum ve Önerilen Ayarlar
 
-1. **Varsayılan oynatıcı (isteğe bağlı):** Video dosyasına sağ tık → **Birlikte Aç** → VLC → **Tümünü değiştir**; veya Sistem Ayarları → Masaüstü ve Dock → Varsayılanlar
-2. **Donanım hızlandırma:** VLC → Tercihler (`Cmd + ,`) → Giriş / Codecs → Donanım hızlandırmalı kod çözmeyi dene (sorun olursa kapat)
-3. **Altyazı:** VLC → Tercihler → Altyazılar → UTF-8 kodlama
-4. **Arayüz dili:** VLC → Tercihler → Arayüz → Dil → Türkçe
+1. **Varsayılan oynatıcı (isteğe bağlı):** Ayarlar → Uygulamalar → Varsayılan uygulamalar → Video için VLC seç
+2. **Donanım hızlandırma:** Araçlar → Tercihler → Giriş / Codecs → Donanım hızlandırmalı kod çözmeyi dene (sorun olursa kapat)
+3. **Altyazı:** Araçlar → Tercihler → Altyazılar → UTF-8 kodlama
+4. **Arayüz dili:** Araçlar → Tercihler → Arayüz → Dil → Türkçe
 
 > 💡 Oynatma sorunu yaşarsan donanım hızlandırmayı kapatmak çoğu zaman işe yarar.
 
@@ -56,14 +64,14 @@ brew install --cask vlc
 
 ### Dosya oynatma
 
-1. VLC'yi aç → **Dosya → Dosya Aç** (`Cmd + O`)
+1. VLC'yi aç → **Medya → Dosya Aç** (`Ctrl + O`)
 2. Veya video/ses dosyasını VLC penceresine **sürükle-bırak**
 3. Çift tıkla veya Enter ile oynat
 
 ### Oynatma listesi
 
-1. **Dosya → Dosya Aç** ile birden fazla dosya seç
-2. Veya **Cmd + L** ile oynatma listesi panelini aç
+1. **Medya → Dosya Aç** ile birden fazla dosya seç
+2. Veya **Ctrl + L** ile oynatma listesi panelini aç
 
 ### Klavye kısayolları
 
@@ -72,8 +80,8 @@ brew install --cask vlc
 | ----------- | ---------------- |
 | `Space`     | Oynat / duraklat |
 | `F` / `F11` | Tam ekran        |
-| `Cmd + O`   | Dosya aç         |
-| `Cmd + L`   | Oynatma listesi  |
+| `Ctrl + O`  | Dosya aç         |
+| `Ctrl + L`  | Oynatma listesi  |
 | `+` / `-`   | Ses seviyesi     |
 | `[` / `]`   | Oynatma hızı     |
 
@@ -89,7 +97,7 @@ brew install --cask vlc
 | Video takılıyor / siyah ekran | Donanım hızlandırma | Tercihler → Giriş/Codecs → donanım hızlandırmayı kapat |
 | Altyazı bozuk karakter        | Yanlış kodlama      | Tercihler → Altyazılar → UTF-8                         |
 | Ses yok                       | Yanlış ses kanalı   | Ses → Ses kanalı → Stereo veya 5.1 dene                |
-| Ağ akışı açılmıyor            | URL veya protokol   | Dosya → Ağ akışı aç (`Cmd + N`); URL'yi kontrol et     |
+| Ağ akışı açılmıyor            | URL veya protokol   | Medya → Ağ akışı aç (`Ctrl + N`); URL'yi kontrol et    |
 
 
 ---
@@ -99,13 +107,12 @@ brew install --cask vlc
 - 🌐 [Resmi Web Sitesi](https://www.videolan.org/vlc/)
 - 📖 [Desteklenen Formatlar](https://www.videolan.org/vlc/features.html)
 - 💾 [GitHub Sayfası](https://github.com/videolan/vlc)
-- 🍺 [Homebrew Cask](https://formulae.brew.sh/cask/vlc)
 
 ---
 
 ## 📝 Notlar
 
-> VLC çok yönlüdür ama günlük kullanımda çoğu kişi yalnızca dosya açmak için kullanır. Gelişmiş özellikler (IPTV, ekran kaydı, Chromecast) mevcuttur; ayrıntılar için resmi wiki'ye bak.
+> VLC çok yönlüdür ama günlük kullanımda çoğu kişi yalnızca dosya açmak için kullanır. Gelişmiş özellikler (IPTV, ekran kaydı, Chromecast) mevcuttur; ayrıntılar için resmi wiki'ye bak. Kurulumda sunulan ek yazılımları reddetmek güvenli kurulum için önerilir.
 
 ---
 

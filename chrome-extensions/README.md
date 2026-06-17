@@ -1,46 +1,42 @@
 # 🧩 Chrome Eklentileri Koleksiyonu
 
-macOS'ta Brave, Chrome ve Edge için özenle seçilmiş eklenti rehberleri. Her eklenti kurulum, önerilen ayarlar ve temel kullanım adımlarıyla birlikte sunulur.
+Chrome, Edge, Brave ve (bazı eklentilerde) Firefox için özenle seçilmiş eklenti rehberleri. Her eklenti kurulum, önerilen ayarlar ve temel kullanım adımlarıyla birlikte sunulur.
 
 **21 eklenti** · **6 kategori** · Ana rehber: [README.md](../README.md)
-
-> Brave (macOS) kullanıcıları için uBlock Origin tam sürümü Manifest V2 desteği sayesinde önerilir; eklentileri yalnızca Chrome Web Store, Firefox Add-ons veya resmi siteden kur.
 
 ---
 
 ## 📋 Kategoriler
 
-### 🛡️ Gizlilik ve Güvenlik (4)
+### 🛡️ Güvenlik ve Gizlilik (4)
 
 
 | Eklenti                                                                         | Açıklama                                                         |
 | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [uBlock Origin](Gizlilik%20ve%20Güvenlik/uBlock-Origin.md)                      | Açık kaynak reklam ve izleyici engelleyici; Brave'de MV2 desteği |
-| [AdBlock](Gizlilik%20ve%20Güvenlik/AdBlock.md)                                  | Reklam, pop-up ve izleyici engelleme                             |
-| [I don't care about cookies](Gizlilik%20ve%20Güvenlik/I-dont-care-about-cookies.md) | Çerez onay pencerelerini otomatik kapatma                        |
-| [Buster: Captcha Solver](Gizlilik%20ve%20Güvenlik/Buster-Captcha-Solver.md)       | reCAPTCHA sesli doğrulamalarını otomatik çözme                   |
+| [uBlock Origin](Güvenlik ve Gizlilik/uBlock-Origin.md)                          | Açık kaynak reklam ve izleyici engelleyici; Brave'de MV2 desteği |
+| [AdBlock](Güvenlik ve Gizlilik/AdBlock.md)                                      | Reklam, pop-up ve izleyici engelleme                             |
+| [Dark Reader](Güvenlik ve Gizlilik/Dark-Reader.md)                              | Tüm sitelerde otomatik karanlık mod                              |
+| [I don't care about cookies](Güvenlik ve Gizlilik/I-dont-care-about-cookies.md) | Çerez onay pencerelerini otomatik kapatma                        |
 
 
-### 👁️ Görünüm Ve Okuma (3)
-
-
-| Eklenti                                                      | Açıklama                                    |
-| ------------------------------------------------------------ | ------------------------------------------- |
-| [Dark Reader](Görünüm%20Ve%20Okuma/Dark-Reader.md)           | Tüm sitelerde otomatik karanlık mod         |
-| [Immersive Translate](Görünüm%20Ve%20Okuma/Immersive-Translate.md) | İki dilli web, PDF ve altyazı çevirisi      |
-| [Medium Parser](Görünüm%20Ve%20Okuma/Medium-Parser.md)       | Medium ücretli makalelere alternatif erişim |
-
-
-### 🎬 Medya (5)
+### 🎬 Medya ve İçerik (4)
 
 
 | Eklenti                                                     | Açıklama                              |
 | ----------------------------------------------------------- | ------------------------------------- |
-| [GoFullPage](Medya/GoFullPage.md)                           | Tam sayfa ekran görüntüsü             |
-| [Hover Zoom+](Medya/Hover-Zoom+.md)                         | Fare ile resim/video büyütme          |
-| [Picture-in-Picture](Medya/Picture-in-Picture.md)           | Kayan PiP penceresinde video izleme   |
-| [Save image as Type](Medya/Save-image-as-Type.md)            | Resmi PNG/JPG/WebP olarak kaydetme    |
-| [Volume Master](Medya/Volume-Master.md)                     | Sekme bazlı ses kontrolü ve yükseltme |
+| [GoFullPage](Medya ve İçerik/GoFullPage.md)                 | Tam sayfa ekran görüntüsü             |
+| [Hover Zoom+](Medya ve İçerik/Hover-Zoom+.md)               | Fare ile resim/video büyütme          |
+| [Save image as Type](Medya ve İçerik/Save-image-as-Type.md) | Resmi PNG/JPG/WebP olarak kaydetme    |
+| [Volume Master](Medya ve İçerik/Volume-Master.md)           | Sekme bazlı ses kontrolü ve yükseltme |
+
+
+### 📚 Okuma ve Metin (2)
+
+
+| Eklenti                                                      | Açıklama                                    |
+| ------------------------------------------------------------ | ------------------------------------------- |
+| [Immersive Translate](Okuma ve Metin/Immersive-Translate.md) | İki dilli web, PDF ve altyazı çevirisi      |
+| [Medium Parser](Okuma ve Metin/Medium-Parser.md)             | Medium ücretli makalelere alternatif erişim |
 
 
 ### 🎮 Steam ve Oyun (3)
@@ -48,29 +44,31 @@ macOS'ta Brave, Chrome ve Edge için özenle seçilmiş eklenti rehberleri. Her 
 
 | Eklenti                                             | Açıklama                                     |
 | --------------------------------------------------- | -------------------------------------------- |
-| [Augmented Steam](Steam%20ve%20Oyun/Augmented-Steam.md) | Steam fiyat karşılaştırma ve kişiselleştirme |
-| [Steam TRY](Steam%20ve%20Oyun/Steam-TRY.md)         | Steam fiyatlarını TL olarak gösterme         |
-| [SteamDB](Steam%20ve%20Oyun/SteamDB%20.md)          | Fiyat geçmişi ve oyuncu istatistikleri       |
+| [Augmented Steam](Steam ve Oyun/Augmented-Steam.md) | Steam fiyat karşılaştırma ve kişiselleştirme |
+| [Steam TRY](Steam ve Oyun/Steam-TRY.md)             | Steam fiyatlarını TL olarak gösterme         |
+| [SteamDB](Steam ve Oyun/SteamDB .md)                | Fiyat geçmişi ve oyuncu istatistikleri       |
 
 
-### 🌐 Web Araçları (2)
+### 🌐 Web Araçları (4)
 
 
 | Eklenti                                                          | Açıklama                                       |
 | ---------------------------------------------------------------- | ---------------------------------------------- |
-| [Web Archives](Web%20Araçları/Web-Archives%20.md)                | Wayback Machine ve arşiv servislerinde arama   |
-| [Search by Image](Web%20Araçları/Search-by-Image.md)             | Tersine görsel arama; 30+ arama motoru        |
+| [Web Archives](Web Araçları/Web-Archives .md)                    | Wayback Machine ve arşiv servislerinde arama   |
+| [Buster: Captcha Solver](Web Araçları/Buster-Captcha-Solver.md)  | reCAPTCHA sesli doğrulamalarını otomatik çözme |
+| [Resim içinde Resim (PiP)](Web Araçları/Picture-in-Picture.md)   | Kayan PiP penceresinde video izleme            |
+| [Search by Image](Web Araçları/Search-by-Image.md)               | Tersine görsel arama; 30+ arama motoru        |
 
 
-### 📺 YouTube (4)
+### 📺 YouTube Optimizasyonu (4)
 
 
 | Eklenti                                                                                       | Açıklama                                         |
 | --------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [Enhancer for YouTube](YouTube/Enhancer-for-YouTube.md)                                       | Oynatıcı özelleştirme, hız, tema, Shorts gizleme |
-| [SponsorBlock](YouTube/SponsorBlock.md)                                                       | Sponsor ve gereksiz segment atlama               |
-| [Multiselect for YouTube](YouTube/Multiselect-for-YouTube.md)                                 | Playlist çoklu seçim ve toplu düzenleme          |
-| [Playlist Duration Calculator](YouTube/YouTube-Playlist-Duration-Calculator.md)               | Playlist toplam süre hesaplama                   |
+| [Enhancer for YouTube](YouTube Optimizasyonu/Enhancer-for-YouTube.md)                         | Oynatıcı özelleştirme, hız, tema, Shorts gizleme |
+| [SponsorBlock](YouTube Optimizasyonu/SponsorBlock.md)                                         | Sponsor ve gereksiz segment atlama               |
+| [Multiselect for YouTube](YouTube Optimizasyonu/Multiselect-for-YouTube.md)                   | Playlist çoklu seçim ve toplu düzenleme          |
+| [Playlist Duration Calculator](YouTube Optimizasyonu/YouTube-Playlist-Duration-Calculator.md) | Playlist toplam süre hesaplama                   |
 
 
 ---
@@ -100,4 +98,4 @@ Bu repository yalnızca bilgilendirme amaçlıdır. Burada önerilen uygulamalar
 
 ---
 
-*Son güncelleme: 2026-06-17*
+*Son güncelleme: 2026-05-22*

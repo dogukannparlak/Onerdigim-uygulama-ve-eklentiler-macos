@@ -2,7 +2,7 @@
 
 > **Kısa Açıklama:** Gizlilik odaklı Chromium tabanlı tarayıcı; yerleşik reklam/izleyici engelleme, parmak izi koruması ve cihazlar arası şifreli senkronizasyon.
 
-Güncel · macOS · Ücretsiz (Premium: VPN, Talk) · Tarayıcı
+Güncel · Windows/macOS/Linux/Android/iOS · Ücretsiz (Premium: VPN, Talk) · Tarayıcı
 
 ---
 
@@ -29,20 +29,22 @@ Tarayıcı gizliliğini karşılaştırmak için [PrivacyTests.org](https://priv
 
 ## 📥 İndirme ve Kurulum
 
-### Yöntem 1: Homebrew (Önerilen)
-
-```bash
-brew install --cask brave-browser
-```
-
-> Homebrew yüklü değilse: [brew.sh](https://brew.sh)
-
-### Yöntem 2: Resmi Site
+### Yöntem 1: Resmi Site ( Önerilen )
 
 1. [brave.com](https://brave.com/) veya [brave.com/download](https://brave.com/download/) adresine git
-2. **macOS** için `.dmg` dosyasını indir
-3. `.dmg`'yi aç, Brave'i **Applications** klasörüne sürükle
+2. **Get Brave** / indir butonuna tıkla
+3. Kurulum sihirbazını takip et
 4. İlk açılışta eski tarayıcıdan yer imleri, geçmiş ve ayarları içe aktarmayı seç (Chrome, Edge, Firefox desteklenir)
+
+### Yöntem 2: WinGet (Terminal)
+
+```powershell
+winget install Brave.Brave
+```
+
+### Yöntem 3: UniGetUI
+
+> UniGetUI açıkken arama çubuğuna **Brave** yaz ve kur.
 
 ---
 
@@ -75,7 +77,7 @@ Shields şunları hedefler: üçüncü taraf reklamlar, cross-site izleyiciler, 
 
 ### Gizlilik ve mahremiyet
 
-- **Gizli pencere** (`Cmd + Shift + N`): Yerel geçmiş/çerez oturumu kapatılınca silinir; ISS veya site hâlâ trafiği görebilir
+- **Gizli pencere** (`Ctrl + Shift + N`): Yerel geçmiş/çerez oturumu kapatılınca silinir; ISS veya site hâlâ trafiği görebilir
 - **Tor penceresi** (etkinse): Menü → **Yeni gizli pencere (Tor)** - trafik Tor ağı üzerinden gider
 - **GPC, HTTPS, çerez temizleme:** `brave://settings/privacy`
 - **Karşılaştırma:** [PrivacyTests.org](https://privacytests.org/) ile Brave ve diğer tarayıcıların izleme test sonuçlarını incele
@@ -179,7 +181,7 @@ Tarayıcının tema, adres çubuğu, sekmeler ve kenar çubuğu davranışını 
 | Ayar                                                           | Önerilen | Açıklama                                                   |
 | -------------------------------------------------------------- | -------- | ---------------------------------------------------------- |
 | **Dikey sekmeleri kullan**                                     | Kapalı   | Klasik yatay sekme şeridi                                  |
-| **Sekme kapatma düğmesini her zaman gizle**                    | **Açık** | Sekmeler daha sade; kapatmak için orta tık veya `Cmd + W` |
+| **Sekme kapatma düğmesini her zaman gizle**                    | **Açık** | Sekmeler daha sade; kapatmak için orta tık veya `Ctrl + W` |
 | **Sekmeleri kapatmak için orta düğme tıklamasına izin ver**    | **Açık** | Fare tekerleği tıklayınca sekme kapanır                    |
 | **Kaydırılabilir sekme şeridini kullan**                       | Kapalı   | Çok sekme olunca küçülür; kaydırma yerine sıkıştırma       |
 | **Sekme vurgulama modu**                                       | Kart     | Sekmenin üzerine gelince kart önizlemesi                   |
@@ -208,7 +210,7 @@ Sayfa görüntüleme, sekme gezinme ve okuma deneyimi ayarları.
 | ------------------------------------------------------------ | ------------------- | ----------------------------------------------------------------- |
 | **Yazı tipi boyutu**                                         | **Orta (Önerilir)** | Varsayılan okuma boyutu; çoğu site için dengeli                   |
 | **Sayfa yakınlaştırma**                                      | **%100**            | Standart ölçek; site düzeni bozulmaz                              |
-| **Cmd-Tab ile en son kullanılan sekmeler arasında gezinin** | Kapalı              | `Cmd + Tab` klasik sekme sırasını takip eder                      |
+| **Ctrl-Tab ile en son kullanılan sekmeler arasında gezinin** | Kapalı              | `Ctrl + Tab` klasik sekme sırasını takip eder                     |
 | **404 sayfalarında Wayback Machine istemini göster**         | **Açık**            | Sayfa kaldırıldıysa Internet Archive'dan eski sürümü açma teklifi |
 
 
@@ -331,7 +333,7 @@ Gizlilik ve güvenlik → **Güvenlik** menüsünden veya doğrudan yukarıdaki 
 | Ayar                                      | Önerilen                        | Açıklama                                                                          |
 | ----------------------------------------- | ------------------------------- | --------------------------------------------------------------------------------- |
 | **Güvenli DNS kullan**                    | **Açık**                        | DNS sorguları şifreli kanaldan gider; ziyaret ettiğin alan adları daha az sızar   |
-| **DNS sağlayıcı seç**                     | **İşletim sistemi varsayılanı** | macOS sistem DNS ayarını kullanır; özel sağlayıcı (Cloudflare, Quad9 vb.) isteğe bağlı |
+| **DNS sağlayıcı seç**                     | **İşletim sistemi varsayılanı** | Windows DNS ayarını kullanır; özel sağlayıcı (Cloudflare, Quad9 vb.) isteğe bağlı |
 | **JavaScript optimizasyonu ve güvenliği** | **Açık**                        | V8 ile sayfalar hızlanır; saldırıya karşı dayanıklılık çok az düşer               |
 | **Sertifikaları yönet**                   | -                               | HTTPS sertifikalarını görüntüle ve yönet                                          |
 
@@ -346,6 +348,7 @@ Gizlilik ve güvenlik → **Güvenlik** menüsünden veya doğrudan yukarıdaki 
 | **AMP sayfalarını otomatik yönlendir**                               | **Açık**       | Google AMP yerine yayıncının asıl sayfasına gider                  |
 | **İzleme URL'lerini otomatik olarak yönlendir**                      | **Açık**       | Tıklama izleme parametrelerini içeren yönlendirme URL'lerini atlar |
 | **Sitelerin dil tercihlerime göre parmak izimi çıkarmasını engelle** | **Açık**       | Dil listenden izleme bilgisi sızmasını azaltır                     |
+| **Microsoft Recall'u engelle**                                       | **Açık**       | Windows'ta Recall'un Brave sekmelerini kaydetmesini engeller       |
 | **"Do Not Track" isteği gönder**                                     | Kapalı         | Çoğu site yok sayar; ek gizlilik sağlamaz                          |
 
 
@@ -513,7 +516,7 @@ Arka plan davranışı, donanım hızlandırma, bellek/güç yönetimi ve pencer
 | **Kısayollar**                                                      | -        | Brave ve eklenti klavye kısayollarını yönet                 |
 | **Brave kapandığında arka plan uygulamaları çalıştırmaya devam et** | **Açık** | Bildirimler ve arka plan görevleri kapanınca da çalışabilir |
 | **Kullanılabilir olduğunda grafik hızlandırmayı kullan**            | Kapalı   | Varsayılan olarak kapalı; siyah ekran veya takılma yaşarsan açık dene |
-| **Bilgisayarınızın proxy ayarlarını açın**                          | -        | Sistem Ayarları → Ağ → proxy ayarlarına gider                     |
+| **Bilgisayarınızın proxy ayarlarını açın**                          | -        | Windows ağ proxy ayarlarına gider                           |
 | **Son sekmeyi kapatırken pencereyi kapatın**                        | Kapalı   | Kapalıyken son sekme kapanınca yeni boş sekme açılır        |
 | **Çok sayıda sekmesi olan pencereleri kapatırken beni uyar**        | **Açık** | Yanlışlıkla onlarca sekmeyi kapatmayı önler                 |
 | **Tam ekrandan çıkmak için Esc'ye basılması gerektiğini söyle**     | **Açık** | Tam ekranda kısa hatırlatma gösterir                        |
@@ -545,7 +548,7 @@ Abonelik yoksa bu ayarlar etkisiz kalır.
 | Ayar                                          | Önerilen | Açıklama                                             |
 | --------------------------------------------- | -------- | ---------------------------------------------------- |
 | **Brave VPN'de WireGuard protokolü kullanın** | Kapalı   | WireGuard veya varsayılan protokol tercihine göre    |
-| **VPN tepsi simgesini göster**                | Kapalı   | Menü çubuğunda VPN simgesi; kullanmıyorsan gereksiz |
+| **VPN tepsi simgesini göster**                | Kapalı   | Görev çubuğunda VPN simgesi; kullanmıyorsan gereksiz |
 
 
 ---
@@ -573,7 +576,7 @@ Abonelik yoksa bu ayarlar etkisiz kalır.
 - 🔄 [Brave Sync yardımı](https://support.brave.com/hc/en-us/articles/15112645150091)
 - 🗣️ [Topluluk](https://community.brave.app/)
 - 🧩 [Chrome Eklentileri Koleksiyonu](chrome-extensions/README.md)
-- 🍺 [Homebrew Cask](https://formulae.brew.sh/cask/brave-browser)
+- 📦 [WinGet Paketi](https://winget.run/pkg/Brave/Brave)
 
 ---
 
